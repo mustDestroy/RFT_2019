@@ -1,0 +1,9 @@
+Követelmény specifikáció
+------------------------
+
+Jelenlegi helyzet:
+------------------
+
+Jelenleg az Eszterházy K. Gyakorló Iskolában nincsen semmilyen nyelvtanulási folyamatot támogató/fejlesztő saját program. A diákok kizárólag
+papír alapú eszközöket és interneten található interaktív feladatokat használnak a tanuláshoz, vizsgázáshoz. Jelenleg a sok tesztlap, gyakorlólap
+kinyomtatására rengeteg papírt használ fel az iskola. Ezzel a projektel szeretnénk környezetünk megóvásához hozzájárulni.
