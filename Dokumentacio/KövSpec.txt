@@ -24,7 +24,7 @@ Az említett számítógépek átlagos iskolai gépek, Windows operációs rends
 program ezeken hibamentesen működjön.
 
 
-A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
+Követelménylista:
 -------------------------------------------------------------------------------------------
 
 A riport alapján a megrendelő elvárásai a következők:
