@@ -9,6 +9,20 @@ A diákok kizárólag papír alapú eszközöket és interneten található inte
 Jelenleg a sok tesztlap, gyakorlólap kinyomtatására rengeteg papírt használ fel az iskola. Ezzel a projektel szeretnénk
 környezetünk megóvásához hozzájárulni.
 
+Vágyálom rendszer leírása:
+-------------------------
+
+Olyan számítógépes asztali alkalmazás készítése, amely az írásbeli (papíron történő) vizsgázást, esetleg gyakorlást tudja
+helyettesíteni digitálisan, valamint az oktatók és tanárok mindennapi teendőinek elvégzésében is segítséget tud nyújtani.
+Mindezt legfőképp az iskola környezettudatosabb működésének érdekében szeretnénk megvalósítani - a papír alapú dokumentumok
+rengeteg környezeti erőforrást emésztenek fel, sok helyet foglalnak, tehát egyre kevésbé ideálisak az intézménynek.
+Emellett olyan programot tervezünk készíteni, amely nem feltétlen csak az angol, de később akár francia, német, stb...
+nyelvek, vagy akár más tantárgyak (matematika, történelem, földrajz, stb...) digitális tanítását, számonkérését is
+lehetővé tenné.
+Az alkalmazást az informatika terem 20 számítógépére tervezzük, minden eszközön egymástól független működéssel.
+Az említett számítógépek átlagos iskolai gépek, Windows operációs rendszerrel - a fő cél az, hogy a készített
+program ezeken hibamentesen működjön.
+
 Szabad Riport
 -------------
 	
