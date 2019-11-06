@@ -17,3 +17,143 @@ Az Scrum meetingen azt is megbeszéltük, hogy a Szabad Riport elkészítésébe
 A döntés A. Dominikra esett, aki a csapat kommunikációs referensse.
 
 ---Jegyzőkönyv vége 2019.10.21.---
+
+
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.10.25.
+
+Téma: Személyes találkozó a Kft-nél.
+
+A szerződni kívánó féllel elkészítettük a Szabad Riportot. A Eszterházy K. Gyakorló Iskolát Magyar Barbara, és
+Páncsics Nikoletta képviselte, még a LogNgin Tech Kft. részéről Angyal Dominik vett részt a találkozón.
+A Szabad Riport elkészülése után meghatároztuk, hogy a kapott határidőre megvalósítható a kért szoftver átadása.
+A szerződő felek megállapodtak, hogy az árajánlatot elküldik 2019.11.26-án.
+Emelett azt is lefixálták, hogy az iskolának el kell készítenie a Követelmény Specifikációt, amiben a Szabad Riportot
+is csatolják. A megbeszéltek alapján a Követelmény Specifikációban a következőeknek kell szerepelni:
+	- Jelenlegi helyzet leírása
+	- Vágyálom rendszer leírása
+	- A rendszerre vonatkozó pályázati törvények, rendeletek, szebványok és ajánlások felsorolása.
+	- Jelenlegi üzleti folyamatok modellje
+	- Követelménylista
+	- Szabad Riport
+	- Fogalomszótár
+
+Továbbá a Szabad Riport közben a projekt neve is megszületett, Easy English néven.
+
+Szabad Riport csatolva:
+----------------------
+
+	- Hogyan működjön az új rendszer, hogyan működjön a már meglévő rendszerekkel?
+	- Az új programnak az iskola 2 informatikai termében lévő számítógépeken kell, hogy működjön. Ez összesen 35-40 számítógépet jelent.
+	  Ezek mindegyikén Windows 10 rendszer van, interneteléréssel.
+	- Milyen szofvert képzeltek el ?
+	- Egy olyan szofvert képzeltünk el, amelynek segítségével a diákok vizsgáztatása angol nyelvből digitális formában zajlana.
+	- Hogyan működjön a szofver a belépéstől a kilépésig?
+	- Kollégáimmal úgy képzeljük el a program működését, hogy minden diák leül a géphez, és elindítja az asztalról. Jó lenne, ha a program
+	  a tanulót valamilyen módon azonosítaná mielőtt elkezdi kitölteni a tesztet, mivel a későbbiekben szükség lesz az egyértelmű azonosításra,
+	  emiatt szükséges lenne egy kezdőképernyő ahol ezt el lehet végezni. A kezdőképernyőn az azonosítás mellett meg kelljen azt is adni, hogy
+	  melyik osztályba jár, és melyik angol csoportba. Mivel van egy osztályon belül kezdő és haladó csoport is.
+	  Miután a tanuló azonosította magát, csak utána tudja elkezdeni a tesztet. A feladatokat amiknek a szoftverben helyet kapnának
+	  együtt állítottuk össze úgy, hogy 40 percbe beleférjen. Fontos lenne, hogy a kezdőképernyő után ki lehessen választani melyik tesztet
+	  akarja kitölteni a diák. Kiválasztja mondjuk az egyiket, és akkor egy KEZDÉS gombra kattintva elindul a teszt. A következőkben minden
+	  oldalon maximum 2-3 kérdés jelenjen meg. Egy nyelvtani teszt nagyjából 40 db mondatalkotásból áll. A mondatokat úgy kelljen megalkotni,
+	  hogy a program kínálja fel a választható lehetőségeket. Legyen mindig 4 lehetőség, abból a diák válasszon ki egyet kattintásra, de a 
+	  kattintás ne legyen végleges, ha meggondolja magát és másikat választ vél helyesnek, akkor az legyen megjelölve amit újonnan választott.
+	  Szeretnénk elkerülni a gépelést, mivel az akkor is hibalehetőséget ad, ha esetleg jól tudja a választ, csak esetlegesen elgépeli.
+	  Ha a tanuló biztos a válaszában, akkor a KÖVETKEZŐ gombra kattintva léphet át az új lapra. Az oldalak között visszalépni nem kell. Ha
+	  végzett a tesztel, legyen egy KÉSZ gomb, és akkor a program bezárul, és valamilyen módon elmenti az eredményt. Az eredmény elmentésénél
+	  fontos az azonosítás, mivel itt ez alapján fogjuk tudni ki hány pontot ért el. Az eredményekhez csak a tanárok férjenek hozzá.
+	  Tegye lehetővé a program, hogy a kezdőképernyőről a tanárok be tudjanak lépni egy olyan felületre, ahol az eredményeket meg tudják tekinteni.
+	  Tanárokat lehessen hozzáadni a rendszerhez, de azt csak tanár jogosultsággal lehessen megtenni.  
+	- Mik a rendszer fontos tulajdonságai pl.: vizuális elemek, design, kezelhetőség?
+	- Legyen a megjelenített tartalom színes. A gombok, a háttér, a kérdés stb. Nem szeretnénk, hogy szürke, vagy fekete-fehér legyen. Ja, és
+	  nagyon fontos, még egy dolog, jó lenne ha az egyes feladatoknál felkínálhozna egy felezési segítség, amelyet a diák egyszer felhasználhat
+	  a teszt kitöltése során ha akar. Emellett ne jelenjen meg semmilyen tartalom ami gyerek szemének nem való.
+
+2019.10.25-én délután az elkészült árajánlatot a kért szoftverhez elküldtük a megrendelőnek.
+
+  Árajánlat csatolva:
+
+	Árajánlat
+	---------
+
+	A termék leírása
+	_________________
+
+	  Vizsgáztatást segítő program
+
+
+	  A program funkciói:
+  	   Az Eszterházy K. Gyakorló Iskola számára a vizsgáztatást felgyorsítani, hatékonyabbá tenni.
+  	   Mindemellett az iskola papírfogyasztását csökkenteni.
+  	   Digitalizálni a vizsga tananyagát.
+
+
+	Mennyiség
+	_________
+
+	  1 darab.
+
+
+
+	Egységára
+	__________
+
+	  Nettó egységára:	  304 000 Ft
+	  + áfa értéke (27%):	   82 080 Ft
+	  Bruttó ára:		  386 080 Ft
+
+
+
+	Költségvetés
+	____________
+
+	  1 hónapnál rövidebb projekt esetén
+	   Beosztás			  Napidíj		Elvárások
+	   Junior full-stack fejlesztő     8 000,00 Ft	1+ év tapasztalat fejlesztésben
+	   Junior tesztmérnök		   8 000,00 Ft	1+ év projekt tapasztalat tesztelésben
+
+	  A táblázatban szereplő árak NETTÓ árak.
+
+
+
+	Költségek részletezése
+	______________________
+
+	  2 fő
+	  ------
+	   1 fő 	Junior full stack fejlesztő
+     	   1 fő 	Junior tesztmérnök
+
+	   munkanapok száma: 19
+
+	  19 nap x  2 fő x 8 000 Ft  = 	   304 000 Ft
+	  összesen a bérköltség      =	   304 000 Ft
+
+
+
+	Szállítás határideje
+	_____________________
+
+	 2018.11.28.
+
+
+
+	Fizetési feltételek
+	____________________
+
+	  30% előleg rendeléskor	   91 200 Ft
+	  70% átvételkor		  212 800 Ft
+
+
+
+	Az árajánlat érvényessége
+	__________________________ 
+
+	  Az árajánlat 2018.11.15–ig érvényes.
+	  Az árajánlat kiadásának dátuma 2018.10.25.
+
+
+---Jegyzőkönyv vége 2019.10.25.---
+
