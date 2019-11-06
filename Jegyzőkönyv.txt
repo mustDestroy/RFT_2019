@@ -1,2 +1,19 @@
 Jegyzőkönyv:
 -----------
+
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.10.21.
+
+Téma: Új projekt felvétele.
+
+Az Eszterházy K. Gyakorló Iskolától megérkezett egy árajánlat kérés szofverfejlesztésre 2019.12.15-ös határidővel.
+A Scrum Master összehívta a fejlesztő csapatot, az esetleges projekt elvállalásáról, ahol arra jutottunk, hogy 
+amennyiben a projekt megvalósítható 2 hónapon belül, akkor elvállaljuk.
+Azonban nem állt rendelkezésünkre elég információ, hogy a projet hosszát meg tudtuk volna becsülni, azért
+mielőtt felvennénk a projektet egy személyes meetinget kértünk az iskolától, hogy egy Szabad Riport formájában
+összegezzük a szofverrel való fontos tudnivalókat.
+Az Scrum meetingen azt is megbeszéltük, hogy a Szabad Riport elkészítésében ki fog résztvenni 2019.10.25-én.
+A döntés A. Dominikra esett, aki a csapat kommunikációs referensse.
+
+---Jegyzőkönyv vége 2019.10.21.---
