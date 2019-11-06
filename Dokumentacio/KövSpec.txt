@@ -1,16 +1,16 @@
 Követelmény specifikáció
 ------------------------
 
-Jelenlegi helyzet:
-------------------
+1.Jelenlegi helyzet:
+--------------------
 
 Jelenleg az Eszterházy K. Gyakorló Iskolában nincsen semmilyen nyelvtanulási folyamatot támogató/fejlesztő saját program.
 A diákok kizárólag papír alapú eszközöket és interneten található interaktív feladatokat használnak a tanuláshoz, vizsgázáshoz.
 Jelenleg a sok tesztlap, gyakorlólap kinyomtatására rengeteg papírt használ fel az iskola. Ezzel a projektel szeretnénk
 környezetünk megóvásához hozzájárulni.
 
-Vágyálom rendszer leírása:
--------------------------
+2. Vágyálom rendszer leírása:
+----------------------------
 
 Olyan számítógépes asztali alkalmazás készítése, amely az írásbeli (papíron történő) vizsgázást, esetleg gyakorlást tudja
 helyettesíteni digitálisan, valamint az oktatók és tanárok mindennapi teendőinek elvégzésében is segítséget tud nyújtani.
@@ -24,7 +24,31 @@ Az említett számítógépek átlagos iskolai gépek, Windows operációs rends
 program ezeken hibamentesen működjön.
 
 
-Követelménylista:
+
+3. A rendszerre vonatkozó törvények, követelmények
+--------------------------------------------------
+
+  GDPR:
+
+	A rendszer úgy legyen elkészítve, hogy a tanárokon kívül más illetéktelen ne tudja megnézni a gyerekek vizsgáit.
+	Az adatbázis fájlok ne legyenek elérhetőek külsősök számára.
+	Az új jogszabályok magas bírságokkal kényszerítik ki a biztonságos adatkezelést, vagyis azt,
+	hogy személyes adatainkhoz ne férhessenek hozzá illetéktelenek. A bíró gyakorlat még hiányzik, de a bírság akár 
+	20 millió euró vagy az éves árbevétel 4 %- a is lehet olyan eseteket is szabályoz és szankcionál a rendelkezés,
+	amikor például egy hackertámadás következtében személyes adataink kikerülnek az adatkezelő rendszeréből,
+	ellopják azokat vagy ha egy rendszerhiba miatt megsemmisülnek. Nagyobb lesz a felelősség az adatkezelőkön
+
+  Szellemi tulajdon:
+
+	A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona.
+	A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása
+  	törvénybe ütköző cselekedet.
+        (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
+
+
+
+
+6. Követelménylista:
 -------------------------------------------------------------------------------------------
 
 A riport alapján a megrendelő elvárásai a következők:
@@ -48,8 +72,9 @@ EE_KOV_011	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforr�
 EE_KOV_012	Visszejelzés				A diákoknak lehetőséget ad az aktuális témakörről visszajelzést írni
 
 
-Szabad Riport
--------------
+
+7. Szabad Riport
+----------------
 	
 	- Hogyan működjön az új rendszer, hogyan működjön a már meglévő rendszerekkel?
 	- Az új programnak az iskola 2 informatikai termében lévő számítógépeken kell, hogy működjön. 
