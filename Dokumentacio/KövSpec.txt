@@ -105,3 +105,11 @@ EE_KOV_012	Visszejelzés				A diákoknak lehetőséget ad az aktuális témakör
 	  vagy fekete-fehér legyen. Ja, és nagyon fontos, még egy dolog, jó lenne ha az egyes feladatoknál felkínálhozna egy felezési
 	  segítség, amelyet a diák egyszer felhasználhat a teszt kitöltése során ha akar. Emellett ne jelenjen meg semmilyen tartalom
 	  ami gyerek szemének nem való.
+
+
+
+8. Fogalomszótár
+----------------
+	teszt: témazáró dolgozat
+	diák: vizsgázó felhasználó
+	tanuló: vizsgázó felhasználó
