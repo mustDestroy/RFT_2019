@@ -52,28 +52,31 @@ Szabad Riport
 -------------
 	
 	- Hogyan működjön az új rendszer, hogyan működjön a már meglévő rendszerekkel?
-	- Az új programnak az iskola 2 informatikai termében lévő számítógépeken kell, hogy működjön. Ez összesen 35-40 számítógépet jelent.
-	  Ezek mindegyikén Windows 10 rendszer van, interneteléréssel.
+	- Az új programnak az iskola 2 informatikai termében lévő számítógépeken kell, hogy működjön. 
+	  Ez összesen 35-40 számítógépet jelent. Ezek mindegyikén Windows 10 rendszer van, interneteléréssel.
 	- Milyen szofvert képzeltek el ?
 	- Egy olyan szofvert képzeltünk el, amelynek segítségével a diákok vizsgáztatása angol nyelvből digitális formában zajlana.
 	- Hogyan működjön a szofver a belépéstől a kilépésig?
-	- Kollégáimmal úgy képzeljük el a program működését, hogy minden diák leül a géphez, és elindítja az asztalról. Jó lenne, ha a program
-	  a tanulót valamilyen módon azonosítaná mielőtt elkezdi kitölteni a tesztet, mivel a későbbiekben szükség lesz az egyértelmű azonosításra,
-	  emiatt szükséges lenne egy kezdőképernyő ahol ezt el lehet végezni. A kezdőképernyőn az azonosítás mellett meg kelljen azt is adni, hogy
-	  melyik osztályba jár, és melyik angol csoportba. Mivel van egy osztályon belül kezdő és haladó csoport is.
-	  Miután a tanuló azonosította magát, csak utána tudja elkezdeni a tesztet. A feladatokat amiknek a szoftverben helyet kapnának
-	  együtt állítottuk össze úgy, hogy 40 percbe beleférjen. Fontos lenne, hogy a kezdőképernyő után ki lehessen választani melyik tesztet
-	  akarja kitölteni a diák. Kiválasztja mondjuk az egyiket, és akkor egy KEZDÉS gombra kattintva elindul a teszt. A következőkben minden
-	  oldalon maximum 2-3 kérdés jelenjen meg. Egy nyelvtani teszt nagyjából 40 db mondatalkotásból áll. A mondatokat úgy kelljen megalkotni,
-	  hogy a program kínálja fel a választható lehetőségeket. Legyen mindig 4 lehetőség, abból a diák válasszon ki egyet kattintásra, de a 
-	  kattintás ne legyen végleges, ha meggondolja magát és másikat választ vél helyesnek, akkor az legyen megjelölve amit újonnan választott.
+	- Kollégáimmal úgy képzeljük el a program működését, hogy minden diák leül a géphez, és elindítja az asztalról. Jó lenne,
+      	  ha a program a tanulót valamilyen módon azonosítaná mielőtt elkezdi kitölteni a tesztet, mivel a későbbiekben szükség lesz
+ 	  az egyértelmű azonosításra, emiatt szükséges lenne egy kezdőképernyő ahol ezt el lehet végezni. A kezdőképernyőn az 
+	  azonosítás mellett meg kelljen azt is adni, hogy melyik osztályba jár, és melyik angol csoportba. Mivel van egy osztályon
+	  belül kezdő és haladó csoport is. Miután a tanuló azonosította magát, csak utána tudja elkezdeni a tesztet. A feladatokat
+ 	  amiknek a szoftverben helyet kapnának együtt állítottuk össze úgy, hogy 40 percbe beleférjen. Fontos lenne, hogy a kezdőképernyő
+ 	  után ki lehessen választani melyik tesztet akarja kitölteni a diák. Kiválasztja mondjuk az egyiket, és akkor egy KEZDÉS
+	  gombra kattintva elindul a teszt. A következőkben minden oldalon maximum 2-3 kérdés jelenjen meg. Egy nyelvtani teszt
+	  nagyjából 40 db mondatalkotásból áll. A mondatokat úgy kelljen megalkotni, hogy a program kínálja fel a választható
+ 	  lehetőségeket. Legyen mindig 4 lehetőség, abból a diák válasszon ki egyet kattintásra, de a kattintás ne legyen végleges,
+	  ha meggondolja magát és másikat választ vél helyesnek, akkor az legyen megjelölve amit újonnan választott.
 	  Szeretnénk elkerülni a gépelést, mivel az akkor is hibalehetőséget ad, ha esetleg jól tudja a választ, csak esetlegesen elgépeli.
-	  Ha a tanuló biztos a válaszában, akkor a KÖVETKEZŐ gombra kattintva léphet át az új lapra. Az oldalak között visszalépni nem kell. Ha
-	  végzett a tesztel, legyen egy KÉSZ gomb, és akkor a program bezárul, és valamilyen módon elmenti az eredményt. Az eredmény elmentésénél
-	  fontos az azonosítás, mivel itt ez alapján fogjuk tudni ki hány pontot ért el. Az eredményekhez csak a tanárok férjenek hozzá.
-	  Tegye lehetővé a program, hogy a kezdőképernyőről a tanárok be tudjanak lépni egy olyan felületre, ahol az eredményeket meg tudják tekinteni.
-	  Tanárokat lehessen hozzáadni a rendszerhez, de azt csak tanár jogosultsággal lehessen megtenni.  
+	  Ha a tanuló biztos a válaszában, akkor a KÖVETKEZŐ gombra kattintva léphet át az új lapra. Az oldalak között visszalépni nem kell.
+ 	  Ha végzett a tesztel, legyen egy KÉSZ gomb, és akkor a program bezárul, és valamilyen módon elmenti az eredményt.
+	  Az eredmény elmentésénél fontos az azonosítás, mivel itt ez alapján fogjuk tudni ki hány pontot ért el. Az eredményekhez csak
+	  a tanárok férjenek hozzá. Tegye lehetővé a program, hogy a kezdőképernyőről a tanárok be tudjanak lépni egy olyan felületre,
+ 	  ahol az eredményeket meg tudják tekinteni. Tanárokat lehessen hozzáadni a rendszerhez, de azt csak tanár jogosultsággal
+	  lehessen megtenni.  
 	- Mik a rendszer fontos tulajdonságai pl.: vizuális elemek, design, kezelhetőség?
-	- Legyen a megjelenített tartalom színes. A gombok, a háttér, a kérdés stb. Nem szeretnénk, hogy szürke, vagy fekete-fehér legyen. Ja, és
-	  nagyon fontos, még egy dolog, jó lenne ha az egyes feladatoknál felkínálhozna egy felezési segítség, amelyet a diák egyszer felhasználhat
-	  a teszt kitöltése során ha akar. Emellett ne jelenjen meg semmilyen tartalom ami gyerek szemének nem való.
+	- Legyen a megjelenített tartalom színes. A gombok, a háttér, a kérdés stb. Nem szeretnénk, hogy szürke,
+	  vagy fekete-fehér legyen. Ja, és nagyon fontos, még egy dolog, jó lenne ha az egyes feladatoknál felkínálhozna egy felezési
+	  segítség, amelyet a diák egyszer felhasználhat a teszt kitöltése során ha akar. Emellett ne jelenjen meg semmilyen tartalom
+	  ami gyerek szemének nem való.
