@@ -60,7 +60,7 @@ Több féle feladatot is lehetőség lenne összeállítani: feleletválasztós 
 választ váró kérdések, párosítós, rajzolós.
 Három jogosultsági kör lenne: diák/tanuló, tanár/oktató és admin. Az admin feladata az adatok karbantartása lenne (pl. új feladatsorok
 elfogadása); A tanár osztályokat, csoportokat hozhat létre és akár csatlakozhat hozzájuk, valamint új feladatsorokat készíthet. A diákok
-csoportokhoz és osztályokhoz, valamint a jóváhagyott és hozzájuk kapcsolt feladatsorokat tölthetnék ki.
+csoportokhoz és osztályokhoz, valamint a jóváhagyott és hozzájuk kapcsolt feladatsorokat tölthetnék ki. 
 Egy diák csak egy osztályhoz, de több csoporthoz is tartozhat. A tanulók visszanézhetnék már megoldott feladatsoraikat, tanulhatnának belőlük.
 Az alkalmazáson belül lenne egy személyes menü (adatmódosításra), régebbi és jelenlegi feladatokat tartalmazó menü, és kijelentkezési leehtőség.
 
