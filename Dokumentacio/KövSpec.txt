@@ -64,7 +64,6 @@ csoportokhoz és osztályokhoz, valamint a jóváhagyott és hozzájuk kapcsolt 
 Egy diák csak egy osztályhoz, de több csoporthoz is tartozhat. A tanulók visszanézhetnék már megoldott feladatsoraikat, tanulhatnának belőlük.
 Az alkalmazáson belül lenne egy személyes menü (adatmódosításra), régebbi és jelenlegi feladatokat tartalmazó menü, és kijelentkezési leehtőség.
 
-
 6. Követelménylista:
 -------------------------------------------------------------------------------------------
 
