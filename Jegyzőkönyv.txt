@@ -157,3 +157,16 @@ Szabad Riport csatolva:
 
 ---Jegyzőkönyv vége 2019.10.25.---
 
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.10.28.
+
+Project: Easy English
+Téma: Megrendelés elfogadva
+
+Az Eszterházy K. Gyakorló Iskola elfogadta az árajánlatot. A szofver megrendelése véglegesítve lett.
+Átadás határideje: 2019.11.28.
+Előleg átutalásának dátuma: 2019.11.29.
+
+---Jegyzőkönyv vége 2019.10.28.---
+
