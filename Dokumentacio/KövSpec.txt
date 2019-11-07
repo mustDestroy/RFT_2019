@@ -51,8 +51,18 @@ program ezeken hibamentesen működjön.
 
 Az alkalmazás főoldalán nyílna lehetőség regisztrációra (felhasználónév + e-mail cím + jelszó), valamint a regisztrált
 felhasználóknak bejelentkezésre (felhasználónév vagy e-mail cím és jelszó) - vendégként való bejelentkezés is lehetséges lenne.
-A bejelentkezett felületen lehetne osztályokhoz és osztályon belüli csapatokhoz csatlakozni (tanulói vagy tanári jogosultsággal), valamint ezeket
-létrehozásni (tanári jogosultsággal).
+A bejelentkezett felületen lehetne osztályokhoz és osztályon belüli csapatokhoz csatlakozni (tanulói vagy tanári jogosultsággal), valamint
+ezeket létrehozásni (tanári jogosultsággal).
+Órák közben a tanár adhat ki feladatsorokat - akár az egész osztálynak egységeset, csoportonként különbözőt, vagy (ülésrendhez igazodva)
+A és B csoportot. Ezek segítségével könnyen nyomon tudná követni a diákok teljesítményét, és a csoportokat úgy tudná újracsoportosítani, hogy
+a diákok a legnagyobb eséllyel tudják kölcsönösen segíteni egymást az előre haladásban.
+Több féle feladatot is lehetőség lenne összeállítani: feleletválasztós (A, B, C, stb.. válaszok, egy vagy több helyes), kifejtett szöveges
+választ váró kérdések, párosítós, rajzolós.
+Három jogosultsági kör lenne: diák/tanuló, tanár/oktató és admin. Az admin feladata az adatok karbantartása lenne (pl. új feladatsorok
+elfogadása); A tanár osztályokat, csoportokat hozhat létre és akár csatlakozhat hozzájuk, valamint új feladatsorokat készíthet. A diákok
+csoportokhoz és osztályokhoz, valamint a jóváhagyott és hozzájuk kapcsolt feladatsorokat tölthetnék ki.
+Egy diák csak egy osztályhoz, de több csoporthoz is tartozhat. A tanulók visszanézhetnék már megoldott feladatsoraikat, tanulhatnának belőlük.
+Az alkalmazáson belül lenne egy személyes menü (adatmódosításra), régebbi és jelenlegi feladatokat tartalmazó menü, és kijelentkezési leehtőség.
 
 
 6. Követelménylista:
