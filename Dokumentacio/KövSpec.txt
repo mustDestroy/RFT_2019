@@ -46,6 +46,13 @@ program ezeken hibamentesen működjön.
         (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
 
 
+4. Jelenlegi üzleti folyamatok modellje:
+----------------------------------------
+
+Az alkalmazás főoldalán nyílna lehetőség regisztrációra (felhasználónév + e-mail cím + jelszó), valamint a regisztrált
+felhasználóknak bejelentkezésre (felhasználónév vagy e-mail cím és jelszó) - vendégként való bejelentkezés is lehetséges lenne.
+A bejelentkezett felületen lehetne osztályokhoz és osztályon belüli csapatokhoz csatlakozni (tanulói vagy tanári jogosultsággal), valamint ezeket
+létrehozásni (tanári jogosultsággal).
 
 
 6. Követelménylista:
