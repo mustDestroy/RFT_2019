@@ -49,17 +49,6 @@ program ezeken hibamentesen működjön.
 4. Jelenlegi üzleti folyamatok modellje:
 ----------------------------------------
 
-Pillanatnyilag még nincs üzleti modell, meglévőkből tudunk ötleteket meríteni. Hasonló asztali alkalmazásoknál általában bejelentkezés után lehet
-tanulni, adatokat kezelni, stb... A tananyagot részekre bontva találják meg a diákok, minden részben egy-egy feladatsorral. A feladatsorok
-különféle játékos tanulási módra adnak lehetőséget. Bizonyos feladatsoroknál másik tesztek sikeres megoldása lehet előfeltétel, vagy lehetnek
-szintugró tesztek is, amelyek nehezebbek, de többet lehet velük ugrani a tanulási folyamatban. A pontszámokat a diákok összevethetik a többi
-diák pontszámaival, akár anonim módon is. A mobilos alkalmazás lényegében megegyezik az asztalival, viszont felülete egyszerűbb és letisztultabb
-a könnyebb kezelés érdekében.
-
-
-5. Igényelt üzleti folyamatok modellje:
----------------------------------------
-
 Az alkalmazás főoldalán nyílna lehetőség regisztrációra (felhasználónév + e-mail cím + jelszó), valamint a regisztrált
 felhasználóknak bejelentkezésre (felhasználónév vagy e-mail cím és jelszó) - vendégként való bejelentkezés is lehetséges lenne.
 A bejelentkezett felületen lehetne osztályokhoz és osztályon belüli csapatokhoz csatlakozni (tanulói vagy tanári jogosultsággal), valamint
@@ -74,7 +63,6 @@ elfogadása); A tanár osztályokat, csoportokat hozhat létre és akár csatlak
 csoportokhoz és osztályokhoz, valamint a jóváhagyott és hozzájuk kapcsolt feladatsorokat tölthetnék ki. 
 Egy diák csak egy osztályhoz, de több csoporthoz is tartozhat. A tanulók visszanézhetnék már megoldott feladatsoraikat, tanulhatnának belőlük.
 Az alkalmazáson belül lenne egy személyes menü (adatmódosításra), régebbi és jelenlegi feladatokat tartalmazó menü, és kijelentkezési leehtőség.
-
 
 6. Követelménylista:
 -------------------------------------------------------------------------------------------
@@ -148,7 +136,17 @@ EE_KOV_012	Visszejelzés				A diákoknak lehetőséget ad az aktuális témakör
 	-Szoftver: (angol: software) alatt a legszűkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek)
 		memóriájában elhelyezkedő, azokat működtető programokat értjük.
 	-GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
-	
+	-Személyes adat: Azonosított vagy azonosítható természetes személyre (Érintett) vonatkozó bármely információ.
+		Azonosítható az a természetes személy, aki közvetlen vagy közvetett módon, különösen valamely azonosító,
+		például név, szám, helymeghatározó adat, online azonosító vagy a természetes személy testi, fiziológiai,
+		genetikai, szellemi, gazdasági, kulturális vagy szociális azonosságára vonatkozó egy vagy több tényező alapján azonosítható.
+	-Szerzői jog: A szerzői jog a szellemi alkotások jogának fő részterülete az iparjogvédelem mellett.
+		A szerzői jog az irodalmi, tudományos és művészeti művek (a továbbiakban együtt: szerzői alkotások) oltalmára hivatott.
+		Emellett bizonyos szomszédos jogok oltalmát is biztosítja.
+	-Jogosultság: Hivatalos engedéllyel rendelkező fél akit megillet egy lehetőség, tulajdon, másokkal ellentétben
+		előnnyel felruházott fél aki engedélyt kapott egy cselekvésre.
+	-Vizualitás:Láthatóság, láttatás a tárgyak, események, érzések, gondolatok, fogalmak képi megjelenítése. Lényege a képlátás,
+		 ami optikai és vizuális természetű egyszerre.
 
 
 
