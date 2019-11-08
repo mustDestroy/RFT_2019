@@ -1,0 +1,57 @@
+Használati esetek
+-----------------
+
+	kik, és mire akarják használni a rendszert:
+
+		Az Eszterházy K. Gyakorló Iskola tanulói és tanárai fogják majd használni a rendszert. A cél a diákok
+		részéről, hogy vizsgáikat digitálisan is elvégezhessék.
+		A tanárok pedig azért fogják használni a rendszert, hogy kevesebb adminisztrálási feladatot kelljen ellátniuk.
+		Azért is, fogják a szofvert használni, mert abban a kérdések véletlenszerű sorrendben lesznek majd felrakva,
+		így nem kell ellenőrizni, hogy puskáznak-e a diákok?
+
+	előfeltételek:
+		
+		A user csak akkor fogja tudni elkezdeni a vizsgafeladatait, ha sikeresen hitelesítette magát a kezdőképernyőn.
+		A diákok eredményeit csak tanári hozzáféréssel lehessen megnézni.
+		
+	egyéb feltételek:
+		A rendszer kialakítása legyen átlátható, könnyen értelmezhető.
+		Legyen alapból egy tanárok által is használható admin fiók.
+		Minden funkciót csak egy sikeres belépés után lehessen használni.
+
+
+
+Használati eset diagram:
+
+		__________________________
+		|			 |
+		|			 |
+		|   Vizsga megtekintés	 |<----- Oktató
+		|			 |
+		|     Lecke felvitel	 |<----- Még csak a szofver gyártója (kezdetben az első fejlesztés után).
+		|			 |  
+Diák ------>	|	Regisztráció	 |<----- Oktató
+		|			 |
+Diák ------>	|	Vizsgázás	 |
+		|			 |
+		|Tanár jogosultság adása |<----- Admin
+		|			 |
+		--------------------------
+
+
+A használati eset-modell leírása:
+Elsődleges szereplők: Diákok
+Másodlagos szereplő/k (adminisztrátor): Oktató/k
+Szerepkörök:
+A diákoknak legyen lehetősége:
+- regisztrálni
+- vizsgázni
+Az Oktatónak legyen lehetősége:
+- regisztrálni
+- leckét feltölteni (esetleges következő fejlesztés után)
+- vizsga eredményt megtekinteni
+- másik tanárt hozzáadni a rendszerhez
+Admin:
+- tanári jogosultság megadása.
+Előfeltétel:
+- az említett funkciók csak regisztrálás után legyenek használhatóak.
