@@ -148,11 +148,7 @@ EE_KOV_012	Visszejelzés				A diákoknak lehetőséget ad az aktuális témakör
 	-Szoftver: (angol: software) alatt a legszűkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek)
 		memóriájában elhelyezkedő, azokat működtető programokat értjük.
 	-GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
-	-Személyes adat: Azonosított vagy azonosítható természetes személyre (Érintett) vonatkozó bármely információ.
-		Azonosítható az a természetes személy, aki közvetlen vagy közvetett módon, különösen valamely azonosító,
-		például név, szám, helymeghatározó adat, online azonosító vagy a természetes személy testi, fiziológiai,
-		genetikai, szellemi, gazdasági, kulturális vagy szociális azonosságára vonatkozó egy vagy több tényező alapján azonosítható.
-
+	
 
 
 
