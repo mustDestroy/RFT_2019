@@ -205,9 +205,21 @@ Tajti Mátyással lefixáltuk a következőket:
 ---Jegyzőkönyv vége 2019.11.01.---
 
 
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.11.03.
 
+Project: Easy English
+Téma: Standup Meeting
+Hossz: 15 perc
 
+Tajti Mátyás és Angyal Dominik megbeszélik hogyan halad a Követelmény Specifikáció
+elkészítése.
+Dokumentációs feladatok felvétele a feladatkövető rendszerbe.
+Mindenki hozzárendelte magát a feladatokhoz amin dolgozni fog,
+amiket 2019.11.07-re el kell végezzen.
 
+---Jegyzőkönyv vége 2019.11.03.---
 
 
 
