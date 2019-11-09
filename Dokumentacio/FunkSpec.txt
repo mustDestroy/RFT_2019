@@ -55,3 +55,30 @@ Admin:
 - tanári jogosultság megadása.
 Előfeltétel:
 - az említett funkciók csak regisztrálás után legyenek használhatóak.
+
+6. Követelménylista:
+--------------------
+
+----ID----	--------------NÉV--------------		-------------------------------------KIFEJTÉS----------------------------------------
+EE_KOV_001	Egyszerű, letisztult felület		Mindenképp a tanulók számára érthető, könnyen kezelhető felületet szeretnénk
+EE_KOV_002	Játékos megoldások			Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára
+							 minél élvezhetőbb legyen a tanulás folyamata
+EE_KOV_003	Tantárgy független	 		A programot a jelenleg oktatott összes tantárgy tanítására szeretnénk használni
+EE_KOV_004	Felület					A könnyű elérés érdekében szeretnénk webes és Android környezetű felületet is.
+EE_KOV_005	Egyéni játék				Egy iskolás által kezelt programot kell létrehozni
+EE_KOV_006	Jutalomrendszer				Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
+EE_KOV_007	Adatvédelem				Az adatokat szigorúan a GDPR-nak megfelelően kell kezelni.
+EE_KOV_008	Feladatok				A felület alkalmas legyen különböző témájú feladatok összeállítására.
+EE_KOV_009	Jogosultság				Olyan funkciót tartamazzon, ami a különböző szerepkörök egyedi jogait nem engedélyezi
+							 a többinek
+EE_KOV_010	Helyesség				Az oktatáshoz feltétleb működési, tartalmi, fogalmi, és nyelvtani hibák nélküli
+							 programra van szükség
+EE_KOV_011	Keresés					Keresés funkció - tananyagok, diákok, csoportok, stb... keresése
+EE_KOV_012	Megbízhatóság				Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen amikor
+							 egyszerre sok felhasználó használja
+EE_KOV_013	Vizuális tanulás			Képek, ábrák segítsék a tanulási folyamatot
+EE_KOV_014	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszer-
+							 követelmény, a gyenge gépeken is jól működjön
+EE_KOV_015	Online					A felhasználók otthonról is el tudják érni az alkalmazást
+EE_KOV_016	Leckék					Leckék feladása, megoldása, megtekintése otthonról is
+EE_KOV_017	Visszejelzés				A diákoknak lehetőséget ad az aktuális témakörről visszajelzést írni
