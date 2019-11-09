@@ -222,6 +222,41 @@ amiket 2019.11.07-re el kell végezzen.
 ---Jegyzőkönyv vége 2019.11.03.---
 
 
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.11.07.
+
+Project: Easy English
+Téma: Funkcionális specifikáció
+Hossz: 25 perc
+
+A Követelmény Specifikáció elkészült a Fogalomszótár kivételével.
+Ez nem gátolja, hogy a szofver dokumentációs feladatai tovább haladjanak.
+A fejlesztők megbeszélték, hogy a Funkcionális Specifikáció elkészítését Sprint 
+módszertan segítségével végzik el.
+Kiosztásra kerültek a feladatok:
+	Tajti Mátyás: 
+		-Követelmény lista.
+		-Képernyő tervek.
+		-Jelenlegi üzleti folyamatok modellje.
+		-Vágyálom rendszer leírása.
+		-Fogalomszótár.
+		-Igényelt ütlezi folyamatok.
+		-Követelmény megfeleltetés.
+		-Jelenlegi helyzet leírása.
+	
+	Angyal Dominik:
+		-A rendszerre vonatkozó külső megszorítások.
+		-Fogalomszótár.
+		-A rendszer céljai és nem céljai.
+		-Használati esetek leírása.
+		-Forgatókönyvek.
+		-Követelmény megfeleltetés az egyes funkciókra.
+
+Sprint határideje: 2019.11.11. 22:00
+
+---Jegyzőkönyv vége 2019.11.07.---
+
 
 
 
