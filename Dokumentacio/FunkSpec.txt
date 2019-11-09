@@ -145,6 +145,17 @@ Forgatókönyvek
 	6. 'EXIT' gombra kattintva befejeződik a program.
 
 
+13. Fogalomszótár
+----------------
+
+	-Pw(passworld): jelszó
+	-Id: azonosító, felhasználó név
+	-Admin: adminisztrátor, aki a rendszert kezeli felügyeli. Különleges jogosultságokkal rendelkező felhasználó
+	-User: felhasználó, jelen esetben tanár vagy diák.
+	-Specifikáció: Részletezés, felsorolás az egyedi különbségek meghatározása.
+	-Functional Specification: A funkcionális specifikáció a felhasznáó szemszögéből írja le a rendszert.
+
+
 
 
 
