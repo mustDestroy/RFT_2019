@@ -1,4 +1,35 @@
-Használati esetek
+
+6. Követelménylista:
+--------------------
+
+----ID----	--------------NÉV--------------		-------------------------------------KIFEJTÉS----------------------------------------
+EE_KOV_001	Egyszerű, letisztult felület		Mindenképp a tanulók számára érthető, könnyen kezelhető felületet szeretnénk
+EE_KOV_002	Játékos megoldások			Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára
+							 minél élvezhetőbb legyen a tanulás folyamata
+EE_KOV_003	Tantárgy független	 		A programot a jelenleg oktatott összes tantárgy tanítására szeretnénk használni
+EE_KOV_004	Felület					A könnyű elérés érdekében szeretnénk webes és Android környezetű felületet is.
+EE_KOV_005	Egyéni játék				Egy iskolás által kezelt programot kell létrehozni
+EE_KOV_006	Jutalomrendszer				Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
+EE_KOV_007	Adatvédelem				Az adatokat szigorúan a GDPR-nak megfelelően kell kezelni.
+EE_KOV_008	Feladatok				A felület alkalmas legyen különböző témájú feladatok összeállítására.
+EE_KOV_009	Jogosultság				Olyan funkciót tartamazzon, ami a különböző szerepkörök egyedi jogait nem engedélyezi
+							 a többinek
+EE_KOV_010	Helyesség				Az oktatáshoz feltétleb működési, tartalmi, fogalmi, és nyelvtani hibák nélküli
+							 programra van szükség
+EE_KOV_011	Keresés					Keresés funkció - tananyagok, diákok, csoportok, stb... keresése
+EE_KOV_012	Megbízhatóság				Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen amikor
+							 egyszerre sok felhasználó használja
+EE_KOV_013	Vizuális tanulás			Képek, ábrák segítsék a tanulási folyamatot
+EE_KOV_014	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszer-
+							 követelmény, a gyenge gépeken is jól működjön
+EE_KOV_015	Online					A felhasználók otthonról is el tudják érni az alkalmazást
+EE_KOV_016	Leckék					Leckék feladása, megoldása, megtekintése otthonról is
+EE_KOV_017	Visszejelzés				A diákoknak lehetőséget ad az aktuális témakörről visszajelzést írni
+
+
+
+
+8. Használati esetek
 -----------------
 
 	kik, és mire akarják használni a rendszert:
@@ -56,29 +87,76 @@ Admin:
 Előfeltétel:
 - az említett funkciók csak regisztrálás után legyenek használhatóak.
 
-6. Követelménylista:
---------------------
 
-----ID----	--------------NÉV--------------		-------------------------------------KIFEJTÉS----------------------------------------
-EE_KOV_001	Egyszerű, letisztult felület		Mindenképp a tanulók számára érthető, könnyen kezelhető felületet szeretnénk
-EE_KOV_002	Játékos megoldások			Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára
-							 minél élvezhetőbb legyen a tanulás folyamata
-EE_KOV_003	Tantárgy független	 		A programot a jelenleg oktatott összes tantárgy tanítására szeretnénk használni
-EE_KOV_004	Felület					A könnyű elérés érdekében szeretnénk webes és Android környezetű felületet is.
-EE_KOV_005	Egyéni játék				Egy iskolás által kezelt programot kell létrehozni
-EE_KOV_006	Jutalomrendszer				Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
-EE_KOV_007	Adatvédelem				Az adatokat szigorúan a GDPR-nak megfelelően kell kezelni.
-EE_KOV_008	Feladatok				A felület alkalmas legyen különböző témájú feladatok összeállítására.
-EE_KOV_009	Jogosultság				Olyan funkciót tartamazzon, ami a különböző szerepkörök egyedi jogait nem engedélyezi
-							 a többinek
-EE_KOV_010	Helyesség				Az oktatáshoz feltétleb működési, tartalmi, fogalmi, és nyelvtani hibák nélküli
-							 programra van szükség
-EE_KOV_011	Keresés					Keresés funkció - tananyagok, diákok, csoportok, stb... keresése
-EE_KOV_012	Megbízhatóság				Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen amikor
-							 egyszerre sok felhasználó használja
-EE_KOV_013	Vizuális tanulás			Képek, ábrák segítsék a tanulási folyamatot
-EE_KOV_014	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszer-
-							 követelmény, a gyenge gépeken is jól működjön
-EE_KOV_015	Online					A felhasználók otthonról is el tudják érni az alkalmazást
-EE_KOV_016	Leckék					Leckék feladása, megoldása, megtekintése otthonról is
-EE_KOV_017	Visszejelzés				A diákoknak lehetőséget ad az aktuális témakörről visszajelzést írni
+11. Forgatókönyvek
+------------------
+
+
+Forgatókönyvek
+--------------
+
+	Diák forgatókönyv az asztali alkalmazáshoz:
+	
+	1. Az asztali alkalmazás ikonjára kattintva elindul a program.
+	2. A kezdő oldalon 2 lehetőség jelenik meg: Tanár és Diák.
+	3. A Diák oldalon található egy 'REGISZTRÁCIÓ' gomb és maga a hitelesítés. 
+	4. A vizsgázó diák ha még nem regisztrált, akkor regisztrálja magát a rendszerbe.
+
+		Regisztrálás:
+			A regisztráló oldalon meg kell adni a diák nevét, osztályát, és diakigazolvány számát.
+			Ez a 'REGISZTRÁCIÓ' gombra kattintás után bekerül az adatbázisba, amit illetéktelenek nem érnek el.
+				
+	5. Ha regisztrált már, akkor a kezdőképernyőn hitelsíti magát majd kiválasztja a tesztet.
+		
+		Hitelesítés:
+			A hitelesítésnél meg kell adni a diák nevét, és diákigazolvány számát, és a vizsgáztató tanár
+			email címét, ugyanis ide fogja elküldeni az eredményt.	
+	
+	6. Ha a hitelesítés érvényes, utána engedi a program elindítani a tesztet.
+	7. A teszt az 'INDÍT' gombra kattintva indul el.
+		
+		Vizsga:
+			Egy oldalon 2 kérdés jelenik majd meg, mindegyikre 4 válasz lehetőség van, amiből csak 1 a helyes.
+			Ha a user kiválaszt egyet, de meggondolja magát, akkor van lehetősége másikat választani. A megjelölt
+			választ zöldel fogja jelölni a program. Ha a felhasználó biztos hogy a jót választotta
+			akkor a 'KÖVTKEZő' gombra kattintva léphet át az új oldalra. Az oldalak között nem lehet visszalépedni,
+			tehát ha egyszer a user rányomott 'KÖVETKEZŐ'-re akkor már nem lehet visszamenni. 
+	
+	8. Ha a vizsgának vége, 'KÉSZ' gombra kattintva a program bezárul, az eredményt elmenti az adatbázisba. A Tanár email
+	   címére pedig kiküldi az eredményt.
+
+
+
+	Tanár forgatókönyv az asztali alkalmazáshoz:
+	
+	1. Az asztali alkalmazás ikonjára kattintva elindul a program.
+	2. A kezdő oldalon 2 lehetőség jelenik meg: Tanár és Diák.
+	3. A tanár oldalon található a 'REGISZTRÁCIÓ' gomb ami új oldalra visz és a hitelesítés maga.
+		
+	Regisztráció:
+		A tanárokat csak az admin fiókkal lehet hozzáadni a rendszerhez. Az admin fiók belépése a következő: id: admin, pw: admin.
+		A hozzáadáshoz szükséges a tanár neve, milyen tárgyat tanít és a tanári száma. Később ezek szükségesek a tanári belépéshez.
+
+	4. 'HITELESÍTÉS' gomb segítségével tud a tanár belépni.
+	5. A következő oldalon lesz egy szűrő, ahol az adott napra a 'LEKÉR' gomba, meg tudja nézni a napon elvégzett vizsgák eredményeit.
+	6. 'EXIT' gombra kattintva befejeződik a program.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
