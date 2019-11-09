@@ -258,6 +258,24 @@ Sprint határideje: 2019.11.11. 22:00
 ---Jegyzőkönyv vége 2019.11.07.---
 
 
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.11.07.
+
+Project: Easy English
+Téma: Stand up meeting-Funkcionális Specifikáció
+Hossz: 10 perc
+
+Funkcionális Specifikáció folyamatainak áttekintése.
+Kész státuszban:
+	-Követelmény Lista
+	-A rendszer céljai és nem céljai
+	-Használati esetek
+	-Forgatókönyvek
+
+Megválasztott eszköz a képernyő tervekhez: moqups
+
+---Jegyzőkönyv vége 2019.11.09.---
 
 
 
