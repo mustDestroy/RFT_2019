@@ -22,6 +22,27 @@
 	 -Tanulók megfélemlítése a számítógépen való vizsgázással.
 
 
+4. A rendszerre vonatkozó törvények, követelmények
+--------------------------------------------------
+
+  GDPR:
+
+	A rendszer úgy legyen elkészítve, hogy a tanárokon kívül más illetéktelen ne tudja megnézni a gyerekek vizsgáit.
+	Az adatbázis fájlok ne legyenek elérhetőek külsősök számára.
+	Az új jogszabályok magas bírságokkal kényszerítik ki a biztonságos adatkezelést, vagyis azt,
+	hogy személyes adatainkhoz ne férhessenek hozzá illetéktelenek. A bíró gyakorlat még hiányzik, de a bírság akár 
+	20 millió euró vagy az éves árbevétel 4 %- a is lehet olyan eseteket is szabályoz és szankcionál a rendelkezés,
+	amikor például egy hackertámadás következtében személyes adataink kikerülnek az adatkezelő rendszeréből,
+	ellopják azokat vagy ha egy rendszerhiba miatt megsemmisülnek. Nagyobb lesz a felelősség az adatkezelőkön
+
+  Szellemi tulajdon:
+
+	A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona.
+	A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása
+  	törvénybe ütköző cselekedet.
+        (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
+
+
 
 6. Követelménylista:
 --------------------
