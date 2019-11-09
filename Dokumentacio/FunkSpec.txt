@@ -134,11 +134,14 @@ Forgatókönyvek
 	3. A tanár oldalon található a 'REGISZTRÁCIÓ' gomb ami új oldalra visz és a hitelesítés maga.
 		
 	Regisztráció:
-		A tanárokat csak az admin fiókkal lehet hozzáadni a rendszerhez. Az admin fiók belépése a következő: id: admin, pw: admin.
-		A hozzáadáshoz szükséges a tanár neve, milyen tárgyat tanít és a tanári száma. Később ezek szükségesek a tanári belépéshez.
+		A tanárokat csak az admin fiókkal lehet hozzáadni a rendszerhez. Az admin fiók belépése a következő:
+		 id: admin, pw: admin.
+		A hozzáadáshoz szükséges a tanár neve, milyen tárgyat tanít és a tanári száma. Később ezek szükségesek
+		a tanári belépéshez.
 
 	4. 'HITELESÍTÉS' gomb segítségével tud a tanár belépni.
-	5. A következő oldalon lesz egy szűrő, ahol az adott napra a 'LEKÉR' gomba, meg tudja nézni a napon elvégzett vizsgák eredményeit.
+	5. A következő oldalon lesz egy szűrő, ahol az adott napra a 'LEKÉR' gomba, meg tudja nézni a napon elvégzett
+	 vizsgák eredményeit.
 	6. 'EXIT' gombra kattintva befejeződik a program.
 
 
