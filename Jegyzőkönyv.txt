@@ -183,6 +183,26 @@ Az Eszterházy. K. Gyakorló Iskola által a 30%-os előleg kifizetésre került
 
 ---Jegyzőkönyv vége 2019.10.29.---
 
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.11.01.
+
+Project: Easy English
+Téma: Első Online Meeting
+Hossz: 40 perc
+
+Tajti Mátyással lefixáltuk a következőket:
+	Felhasznált keretrendszer: Java FXML Application
+	Fejlesztői eszközök: Windiws platform, NetBeans, MySql, TortoiseGit
+	Time Management
+	Modell mely elvei alapján fejlesztünk: V-modell.
+	Jegyzőkönyvet vezeti Angyal Dominik.
+	Verziókövető rendszer: Git
+	Feladatkövető rendszer: Trello
+	Követelmény sőecifikáció elkészítése: 2019.11.01-től 2019.11.07-ig.
+	
+	
+---Jegyzőkönyv vége 2019.11.01.---
 
 
 
