@@ -1,3 +1,27 @@
+1. A renszer céjai és nem céljai
+--------------------------------
+
+	Célok:
+	 -Az Eszterházy K. Gyakorló Iskola számára leegyszerűsíteni a vizsgáztatást.
+	 -Az angolnyelvű vizsgaanyagok digitalizálása.
+	 -Környezet tudatosság növelése.
+	 -Az intézmény által felhasznált papír csökkentése.
+	 -A vizsgázás gyorsítása.
+	 -Egységes vizsgáztatás
+	 -A tanároknak azonnali eredményt mutasson.
+	 -A megoldandó feladatok jelentsenek kihívást a diákok számára.
+	 -Megszerettetni a számítógép használatát a diákkal, ha tanulásról van szó.
+	 -A dolgozatok javítási idejének csökkentése.
+	
+	Nem célok:
+	 -A vizsgáztatás túlbonyolítása.
+	 -Unalmas szoftverek létrehozása.
+	 -Megutáltatni az interaktív tanulást a diákkal.
+	 -Elvonni a tanuló figyelmét a vizsgázás tényéről.
+	 -Felesleges ismeretek átadása.
+	 -Tanulók megfélemlítése a számítógépen való vizsgázással.
+
+
 
 6. Követelménylista:
 --------------------
