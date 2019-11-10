@@ -75,9 +75,18 @@ Nagyon fontosnak gondoljuk a vidám, illusztrált képekkel való kommunikáció
   	törvénybe ütköző cselekedet.
         (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
 
+5. Jelenlegi üzleti folyamatok modellje
+---------------------------------------
+
+Lásd: KövSpec.txt
+
+6. Igényelt üzleti folyamatok modellje
+--------------------------------------
+
+Lásd: KövSpec.txt
 
 
-6. Követelménylista:
+7. Követelménylista:
 --------------------
 
 ----ID----	--------------NÉV--------------		-------------------------------------KIFEJTÉS----------------------------------------

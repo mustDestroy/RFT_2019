@@ -24,7 +24,6 @@ Az említett számítógépek átlagos iskolai gépek, Windows operációs rends
 program ezeken hibamentesen működjön.
 
 
-
 3. A rendszerre vonatkozó törvények, követelmények
 --------------------------------------------------
 
@@ -49,6 +48,17 @@ program ezeken hibamentesen működjön.
 4. Jelenlegi üzleti folyamatok modellje:
 ----------------------------------------
 
+Jelenleg nincs üzleti modell, más meglévőkből tudunk ötletet venni. Az asztali alkalmazásoknál általában a bejelentkező felületet
+követően lehet tanulni.
+A tananyagot részekre bontva lehet megtalálni, minden részben egy feladatsor van, sok különböző egyszerű játékos feladattal.
+Minden megoldott feladatsorral tudjuk bővíteni a tudásunkat, illetve bizonyos feladatsoroknak, más feladatsor megoldása az előfeltétel.
+Vannak szintugró feladatsorok is, amivel akár több fejezetet is le lehet egyszerre tudni.
+Egy jó kis versenyzés sem maradhat ki egy ilyen rendszerből, ezért a feladatsorok pontszámát összevetheted a barátaidéval.
+A program nem megy máshogy mobilon sem, a bejelentkezési adatok azonosak, a felület azonban egyszerűbb, a könyebb átláthatóság érdekében.
+
+5. Igényelt üzleti folyamatok modellje:
+---------------------------------------
+
 Az alkalmazás főoldalán nyílna lehetőség regisztrációra (felhasználónév + e-mail cím + jelszó), valamint a regisztrált
 felhasználóknak bejelentkezésre (felhasználónév vagy e-mail cím és jelszó) - vendégként való bejelentkezés is lehetséges lenne.
 A bejelentkezett felületen lehetne osztályokhoz és osztályon belüli csapatokhoz csatlakozni (tanulói vagy tanári jogosultsággal), valamint
@@ -63,6 +73,7 @@ elfogadása); A tanár osztályokat, csoportokat hozhat létre és akár csatlak
 csoportokhoz és osztályokhoz, valamint a jóváhagyott és hozzájuk kapcsolt feladatsorokat tölthetnék ki. 
 Egy diák csak egy osztályhoz, de több csoporthoz is tartozhat. A tanulók visszanézhetnék már megoldott feladatsoraikat, tanulhatnának belőlük.
 Az alkalmazáson belül lenne egy személyes menü (adatmódosításra), régebbi és jelenlegi feladatokat tartalmazó menü, és kijelentkezési leehtőség.
+
 
 6. Követelménylista:
 -------------------------------------------------------------------------------------------
