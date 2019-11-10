@@ -22,6 +22,19 @@
 	 -Tanulók megfélemlítése a számítógépen való vizsgázással.
 
 
+2. A jelenlegi helyzet leírása
+------------------------------
+
+
+Voltam a Eszterházy K. Gyakorló Iskolában, beszélgettem a tanárokkal és mondták, hogy jó lenne egy tanulás segítő program.
+Felajánlottam, hogy a csapattal fejlesztünk egy ilyen programot.
+Jelenleg ilyen rendszerből hiány van a környéken, ezért máshova is el tudnánk adni.
+Megnéztünk hasonló programokat, ezekből ötleteket merítettünk és így létre tudunk hozni egy egyedi programot, 
+amin esetlegesen az igényeknek megfelelően személyre tudnánk szabni.
+Tovább kutakodtunk és számos fejlesztési ötletet tudunk felkínálni a megrendelőnek.
+A könnyebb felhasználás érdekében, egy letisztult egyszerű felhasználói felületet ajánlunk fel.
+
+
 3. Vágyálom rendszer leírása
 ----------------------------
 
