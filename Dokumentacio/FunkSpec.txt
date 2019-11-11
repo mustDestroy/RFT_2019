@@ -178,10 +178,6 @@ Előfeltétel:
 11. Forgatókönyvek
 ------------------
 
-
-Forgatókönyvek
---------------
-
 	Diák forgatókönyv az asztali alkalmazáshoz:
 	
 	1. Az asztali alkalmazás ikonjára kattintva elindul a program.
@@ -230,6 +226,52 @@ Forgatókönyvek
 	5. A következő oldalon lesz egy szűrő, ahol az adott napra a 'LEKÉR' gomba, meg tudja nézni a napon elvégzett
 	 vizsgák eredményeit.
 	6. 'EXIT' gombra kattintva befejeződik a program.
+
+12. Funkció - követelmény megfeleltetés:
+----------------------------------------
+
+EE_KOV_001	Egyszerű, letisztult felület		A követelmény specifikácóban feltültetett követelménynek megfelelően, letisztult
+								felületet valósítunk meg a programban asztali felületen.
+								A kért szoftverben minden főbb funkció egér klikkelésre fog működni,
+								billenyűzetet csak a játékoknál kell használni, ott is csak a szavak
+								mondatba való behelyettesítésénél. Az egyes grafikus felületeken csak
+								néhány lesz elérhető pl.: "visszalépés" gomb, "ok" gomb.
+EE_KOV_002	Játékos megoldások			3 típusú játék van a szoftverben megvalósítva: akasztófa, képfelismerő, és szó
+								behelyettesítős. A Játékok működése:
+									-Akasztófa: mint az eredeti akasztófa játékban, itt is a rendszer
+										által feldobott szónak a betűit kell kitalálni.
+									-Képfelismerő:
+									-szó behelyettesítős: az adott mondatokba az igének a megfelelő
+										alakját kell beírni.
+EE_KOV_003	Tantárgy független	 		A tantárgy jelenleg csak angol nyelv tanulására lesz használható (később fejleszthető).
+EE_KOV_004	Felület					A szoftver a kevés rendelkezésre álló idő és erőforrás miatt kizárólag asztali alkal-
+								mazásban lesz elérhető. Regisztráció, tanulás, stb... - minden funkció itt
+								lesz elérhető.
+EE_KOV_005	Egyéni játék				Egy egyszerű és letisztult felületet valósítunk meg a programban, hogy a kisiskolások
+								minél könnyebben kezelni tudják azt. A kért szoftverben minden főbb funkció
+								egér klikkelésre fog működni, billenyűzetet, a gombokon a feliratok jól
+								olvashatóak a betűtípusnak köszönhetően. Minden utasítás magyarul fog
+								megjelenni, hogy az legfiatalabbak is könnyen kezelhessék, hogy mi a feladat.
+								Csak a játékok feladatai lesznek angolul.
+EE_KOV_006	Jutalomrendszer				Azonnali visszajelzést fognak kapni a diákok arról, hogy hogyan sikerült a feladat,
+								viszont csak az elért százalékot írja majd ki a program.
+EE_KOV_007	Adatvédelem				Az alkalmazás az adatokat 100%-ban a GDPR-nak megfelelően fogja kezelni.
+EE_KOV_008	Feladatok				A szoftver nem alkalmazkodik különböző témákhoz, és nem állít össze ennek megfelelően 
+								feladatokat. Csak előre meghatározott feladatokat tartalmaz. A rövid határidő
+								miatt, csak az előre implementált feladatokkal lehet gyakorolni.
+EE_KOV_009	Jogosultság				A jogosultságok csak alap korlátozásokat/engedélyeket szabnak meg, ezeket az admin
+								fogja tudni beállítani.
+EE_KOV_010	Helyesség				A követelménynek megfelelően a rogramot többször fogjuk ellenőrizni, minden hiba elkerülése
+								érdekében.
+EE_KOV_011	Keresés					A keresés funkció a rövid határidő miatt ebben a verzióban nem lesz kifejlesztve.
+EE_KOV_012	Megbízhatóság				Az alkalmazás stabil lesz, nem fogja leterhelni a számítógépeket.
+EE_KOV_013	Vizuális tanulás			A beépített feladatok között nem feltétlen szerepel majd képes feladat.
+EE_KOV_014	Hatékonyság/magas teljesítmény  	A program megfelelően fog futni a gyengébb teljesítményű gépeken is.
+EE_KOV_015	Online					Az adatbázisok helyiek lesznek, otthonról nem elérhetőek.
+EE_KOV_016	Leckék					Leckék feladását, megoldását, megtekintését a program első körben még nem fogja tartalmazni.
+EE_KOV_017	Visszejelzés				A diákoknak még nem lesz lehetőségük az aktuális témakörről visszajelzést írni.
+
+
 
 
 13. Fogalomszótár
