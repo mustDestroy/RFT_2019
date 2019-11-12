@@ -178,21 +178,66 @@ Előfeltétel:
 EE_KOV_001	Egyszerű letisztult felület		Mindenképp a tanulók számára érthető, könnyen kezelhető felületet szeretnénk
 
 		A Követelmény Specifikációban meghatározott követelménynek a szofver eleget tesz. Ezt a következőképpen teszi a rendszer:
-		-csak egérkurzor vezérlésű felület valósítunk meg
+		- csak egérkurzor vezérlésű felület valósítunk meg
+		- 4 válaszlehetőség egy feladathoz
+		- a jónak vélt választ a megejöléskor színesen jelenítjük meg
+		- élénk színek használata pl: háttér, gombok színe, szöveg színe.
 		
 
 EE_KOV_003	Tantárgy független	 		A programot a jelenleg oktatott összes tantárgy tanítására szeretnénk használni
 
-		A program tantárgyfüggetlen, mivel esetleges későbbi fejlesztés során más tantárgyakat elkülönítve tudunk majd hozzáadni.		
+		A program tantárgyfüggetlen, mivel esetleges későbbi fejlesztés során más tantárgyakat elkülönítve tudunk majd hozzáadni.
+		Azonban egyenlőre a szoftver csak az angol vizsgát fogja tartalmazni.		
+
 
 EE_KOV_005	Egyéni játék				Egy iskolás által kezelt programot kell létrehozni.
 		
 		Ennek a követelménynek a megvalósulásának eleget tesz az első követelménynek való megfeleltetés.
 
+
 EE_KOV_007	Adatvédelem				Az adatokat szigorúan a GDPR-nak megfelelően kell kezelni.
 		
-		Az adatkezelés szigorúan a GDPR-nak megfelelően lesz megvalósítva.
+		Az adatkezelés szigorúan a GDPR-nak megfelelően lesz megvalósítva, ahogyan a Követelmény Specifikációban is
+		meg van fogalmazva. 
 
+
+EE_KOV_009	Jogosultság				Olyan funkciót tartamazzon, ami a különböző szerepkörök egyedi jogait
+							nem engedélyezi a többinek
+
+		A renszer tartalmazni fogja a különböző szerepkörök megkülönböztetését. Ennek érdekében úgy alakítjuk ki
+		a szofvert, hogy a tanár és diák belépési felület külön-külön lesz egymástól, ezenfelül a tanároknak
+		külön is azonosítaniuk kell majd magukat. Így a diák nem fog tudni belépni tanári felületre.
+		Emellett lesz egy admin felhasználó is, amivel majd a tanári jogosultsággal rendelkező felhasználokat lehet majd felvenni.
+
+
+EE_KOV_010	Helyesség				Az oktatáshoz feltétleb működési, tartalmi, fogalmi, és nyelvtani hibák nélküli
+							 programra van szükség
+
+		Ennek a követelménynek természetesen 100%-ban odafigyelünk, az önök által elküldött feladatokat többször
+		átfogjuk nézni nyelvtani helyesség szempontjából.
+
+
+EE_KOV_014	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszer-
+							 követelmény, a gyenge gépeken is jól működjön
+
+		A rendszert átlagos iskolai asztali számítógéphez optimalizáljuk. A rendszerigény Intel i3-as processzor,
+ 		4GB RAM és 5GB tárhely a merevlemezen. A helyes optimalizálással megfeleltetjük a rendszert a Követelmény
+		Specifikációban szereplő EE_KOV_012-nek is.
+
+
+Azok a követelmények amelyekre a Követelmény megfeleltetésben nem tértünk ki, de a Követelmény Specifikációban szerepelnek,
+nem megvalósíthatóak az elvárt határidőn belül.
+	
+	Indokok:
+	  - androidos felületet létrehozni, drágább és nincs rá humán erőforrás a Kft-nél.
+	  - a jutalomrendszert azért nehéz megvalósítani, mert nem gyakorló feladatokról van szó, hanem vizsgáztatásról.
+	  - Asztali alkalmazásba keresést teéjesen felesleges beleépíteni, és egy keresőmotor a szofver optimalizációjánál
+	    sok erőforrást igényel.
+	  - A visszajelzés nem lett megemlítve az elkészített Szabad Riport során, így a programban nem lesz megvalósítva,
+	    ez a funkció.
+	  - Az elkészített Szabad riportban az EE_KOV_015, EE_KOV_016 és az EE_KOV_17 nem lett megemlítve, és ezek meg
+	    valósítása mind lehetséges lenne, de nem a megadott határidőn belül. Azért a szofvter ezeknek a kitételeknek
+	    nem fog eleget tenni.
 
 
 11. Forgatókönyvek
