@@ -240,6 +240,19 @@ nem megvalósíthatóak az elvárt határidőn belül.
 	    nem fog eleget tenni.
 
 
+10. Képernyőtervek
+------------------
+
+	4 képernyőterv készült:
+		I.	ee_fooldal.png			A tanár-diák útválasztó felület, az első ablak, ami a program indításakor felugrik.
+		II. 	ee_tanari_login.png és		Az adott szerepkörökhöz tartozó login lehetőségek. Mindkét esetben egy-egy
+			ee_diak_login.png			textbox ad lehetőséget az adatok bevitelére (azonosítő és jelszó).
+		III.	ee_diak_vizsgavalasztas.png	A diákoknak saját UI ad lehetőséget a jelenleg elérhető vizsgák kiválasztására.
+							A már kész, vagy épp nem kitölthető vizsgák gombja inaktívak, nem kattinthatók.
+		IV.	ee_diak_vizsgakerdespelda.png	A diákok így tölthetik ki a vizsgákat. A gombok csoportba lesznek téve, rádiógombként
+								fognak viselkedni.
+			
+
 11. Forgatókönyvek
 ------------------
 
@@ -348,7 +361,10 @@ EE_KOV_017	Visszejelzés				A diákoknak még nem lesz lehetőségük az aktuál
 	-User: felhasználó, jelen esetben tanár vagy diák.
 	-Specifikáció: Részletezés, felsorolás az egyedi különbségek meghatározása.
 	-Functional Specification: A funkcionális specifikáció a felhasznáó szemszögéből írja le a rendszert.
-
+	-Login: bejelentkezés a rendszerbe szükséges adatok megadásával
+	-Textbox: szövegdoboz, szövegek bevitelére szolgáló elem
+	-UI: User Interface, azaz felhasználói felület - ezt látja/használja a felhasználó a program működtetéséhez
+	-Rádiógomb: Egy csoportba rendezve az ilyen gombok közül egyszerre csak egy lehet aktív/kiválasztva (pl. feleletválasztós kérdésekhez)
 
 
 
