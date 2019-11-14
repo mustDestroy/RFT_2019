@@ -1,2 +1,65 @@
 Rendszerjavaslat
 ----------------
+Funkcionális specifikáció kidolgozása a követelmény specifikáció alapján tervezés szintjén!
+-------------------------------------------------------------------------------------------
+
+A funkcionális és követelmény specifikációban lejegyzett vágyálomrendszert megvalósíthatónak találtuk.
+Azonban néhány kompromisszumra szükség van a sikeres fejlesztés érdekében, a rövid határidő miatt.
+
+Sikeres fejlesztés feltételei_1
+
+	A Követelmény Specifikációban lefektetett EE_KOV_002 követelmény nem valósul meg, mert a szofver
+	nem az angol nyelv játékos tanulását fogja megcélozni, hanem a gyors és egyszerű vizsgáztatást.
+	Ezek alapján ennek a követelménynek a megvalósítását elvetettük.
+	
+	
+Sikeres fejlesztés feltételei_2
+
+	A Követelmény Specifikációban lejegyzett EE_KOV_004 követelmény nem fog megvalósulni.
+	A Szabad Riportban nem esett szó webes, sem androidos felületről. Ennek a két webes felületnek a 
+	megvalósítása a kitűzött határidőn belül nem megvalósítható. Nem áll rendelkezésre megfelelő mennyiségű
+	humán erőforrás.
+	
+
+Sikeres fejlesztés feltételei_3
+
+	A Követelmény Specifikációban lejegyzett EE_KOV_006 követelmény nem fog megvalósulni. Véleményünk szerint
+	a vizsgázás megvalósítása szempontjából értelmetlen jutalomrendszert beépíteni. Nincs mire jutalompontokat
+	adni a vizsgáztatás során.
+	
+
+Sikeres fejlesztés feltételei_4
+	
+	A Követelmény Specifikációban lejegyzett EE_KOV_008 követelmény nem fog megvalósulni. A megvalósítandó
+	felület nem lesz alkalmas feladatok összerakására, mivel a program főcélja a vizsgáztatás gyorsítása,
+	egyszerűsítése.
+	
+Sikeres fejlesztés feltételei_5
+
+	A Követelmény Specifikációban lejegyzett EE_KOV_011 követelmény nem fog megvalósulni. A keresés funkciója
+	lefejlesztésének fejlesztői oldalról nincsen akadálya, de ha ezt megvalósítjuk akkor az EE_KOV_014 nem
+	tud megfelelni a szoftver. Megvalósítás szempontjából azonban az EE_KOV_014 megvalósulása sokkal fontosabb,
+	mivel ez biztosítja a zökkenőmentes futását a szoftvernek.
+	
+	
+Sikeres fejlesztés feltételei_6
+	
+	A Követelmény Specifikációban lejegyzett EE_KOV_013 követelmény nem fog megvalósulni. A vizualitás
+	fontosságát előtérbe helyezi a program, de a szofver tanulási folyamatot nem fog megvalósítani.
+	
+
+Sikeres fejlesztés feltételei_7
+
+	A Követelmény Specifikációban lejegyzett EE_KOV_015 követelmény nem fog megvalósulni. Miután nem lesz
+	webes felület így a felhasználók nem lesznek képesek elérni otthonról a szofver felületét.
+	
+Sikeres fejlesztés feltételei_8
+
+	A Követelmény Specifikációban lejegyzett EE_KOV_016 követelmény nem fog megvalósulni. A szoftverben nem
+	lesznek megvalósítva leckék mert nem kötődnek szorosan a vizygáztatás folyamatához.
+	
+
+Sikeres fejlesztés feltételei_9
+
+	A Követelmény Specifikációban lejegyzett EE_KOV_017 követelmény nem fog megvalósulni. A vizsgázásról
+	a diákoknak a szoftver nem biztosít vélemény nyilvánításra felületet a GDPR miatt.
