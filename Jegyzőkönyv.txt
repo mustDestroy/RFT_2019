@@ -278,4 +278,51 @@ Megválasztott eszköz a képernyő tervekhez: moqups
 ---Jegyzőkönyv vége 2019.11.09.---
 
 
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.11.13.
+
+Project: Easy English
+Téma: Funkcionális Specifikáció
+Hossz: --
+
+A funkcionális specifikáció 2019.11.11-re elkészült.
+
+---Jegyzőkönyv vége 2019.11.11.---
+
+
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.11.13.
+
+Project: Easy English
+Téma: Képernyőképek elküldése
+Hossz: --
+
+2019.11.12-én a képernyőtervek el lettek küldve a megrendelőnek. A megrendelő még aznap pozitív visszajelzést írt,
+ezért a szofver további fejlesztését elkezdtük megtervezni.
+
+---Jegyzőkönyv vége 2019.11.12.---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
