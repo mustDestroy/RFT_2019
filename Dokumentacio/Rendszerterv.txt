@@ -1,2 +1,30 @@
 Rendszerterv
 ------------
+
+1. A rendszer céljai és nem céljai
+----------------------------------
+
+	Célok:
+	 1. Diákok számára egyszerűsíteni a vizsgázást angol nyelvből.
+	 2. A vizsgaanyagok digitalizálása.
+	 3. A tanárok szabadidejének növelése.
+	 4. Az ökonómiai lábnyom csökkentése.
+	 5. Egységes vizsgáztatás angol nyelvből.
+	 6. A felhasznált papír csökkentése.
+	 7. Azonnali eredményt mutasson a tanároknak.
+	 8. A megoldandó feladatok jelentsenek kihívást a diákok számára.
+	 9. Megszerettetni a számítógépet, mint a tanuláshoz használható eszközt.
+	 
+	Nem célok:
+	 1. A vizsgáztatások túlbonyolítása.
+	 2. Unalmas szofver létrehozása.
+	 3. Felesleges ismeretek átadása.
+	 4. Elvonni a tanuló figyelmét a vizsgáztatás tényéről.
+	 5. Tanulók stresszelése a számítógépen történő vizsgával.
+	 6. Megutáltatni az interaktív tanulást a diákkal.	 
+
+
+
+
+
+
