@@ -77,7 +77,30 @@ Rendszerterv
 		4.Lekérés:Miután belépett le tudja kérni napra pontosan, hogy aznap ki/kik vizsgáztak.
  			   Ezt a LEKÉR gombra kattintva teheti meg.
 
-		5..Kilépés: A képernyő jobb alsó sarkában van egy KILÉPÉS gomb, ekkor a program bezárul.
+		5.Kilépés: A képernyő jobb alsó sarkában van egy KILÉPÉS gomb, ekkor a program bezárul.
+
+	Menü-hierarchiák
+
+		Kezdőlap: Erről 2 oldal nyílik. Ezt kettő gomb biztosítja. TANÁR és DIÁK gomb. A TANÁR a tanári belépéshez
+			  és regisztrációhoz. A DIÁK gomb a diák belépéshez, regisztrációhoz és vizsgázáshoz visz.
+		
+		Regisztrációs oldal: Űrlap formájában Azonosítót és Jelszót kell megadni. A REGISZTRÁLÁS gombra
+				     kattintva lehet regisztrálni, majd vissza lehet térni a belépéshez a VISSZA gombbal.
+
+		Belépés oldal: Űrlap formájában meg kell adni a beregisztrált azonosítóját és jelszavát a felhasználónak.
+
+		Vizsa választása oldal: Csak a diák sikeres belépését követően nyílik meg. Itt vannak felsorolva a
+					választható vizsgák.KEZDÉS gomb visz tovább a feladatokhoz
+
+		Vizsgafeladatok oldal: Minden feladathoz 4 gomb tartozik, a gombon rajta a válasszal. A feladatok között
+				       visszalépni nem lehet. A TOVÁBB gombal lehet léptetni a feladatokat.
+
+		Vizsga lekérés: Sikeres tanári belépést követően megnyílik az oldal, ahol egy dátumkereső panel
+			        segítségével, az adott napra pontosan le lehet kérni az aznap vizsgázók eredményét
+				névvel, eredménnyel. Ezt a LEKÉR gomb valósítja meg. Jobb alsó sarokban van a KILÉPÉS gomb.
+		
+		Vizsga befejezés: KÉSZ gomb megjelenik az utolsó feladat után. Arra rákattintva elmentődik az
+				  eredmény és bezárul a program. 
 
 
 
