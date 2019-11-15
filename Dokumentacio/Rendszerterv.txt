@@ -79,7 +79,7 @@ Rendszerterv
 
 		5.Kilépés: A képernyő jobb alsó sarkában van egy KILÉPÉS gomb, ekkor a program bezárul.
 
-	Menü-hierarchiák
+	Menü-hierarchiák:
 
 		Kezdőlap: Erről 2 oldal nyílik. Ezt kettő gomb biztosítja. TANÁR és DIÁK gomb. A TANÁR a tanári belépéshez
 			  és regisztrációhoz. A DIÁK gomb a diák belépéshez, regisztrációhoz és vizsgázáshoz visz.
@@ -102,6 +102,7 @@ Rendszerterv
 		Vizsga befejezés: KÉSZ gomb megjelenik az utolsó feladat után. Arra rákattintva elmentődik az
 				  eredmény és bezárul a program. 
 
-
+	Képernyőtervek:
+		A Funkcionális specifikációban csatolva.
 
 
