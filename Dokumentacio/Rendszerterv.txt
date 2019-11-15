@@ -146,3 +146,22 @@ Vásárolt szoftver komponensek:
 
 Fizikai alrendszerek:
 		A szofver nem kapcsolódik az említetteken kívül más fizikai alrendszerekhez.
+
+
+9. Adatbázis terv:
+-----------------
+Az adatbáis típusa: MySQL.
+
+	Logikai adatmodell
+	
+	Az adatbázis 2 táblából fog állni.
+
+	1. tábla: regisztrált diákok azonosítója, jelszava, neve, osztály, regisztrálás dátuma.
+		A tábla 2. NF-ben van. Minden sort egyértelműen azonosít a tblához tartozó kulcs, amely nem
+		összetett kulcs.
+
+	2. tábla: tanuló azonosítója, tanuló neve, melyik vizsgát végezte el, mikor végezte, dátum 
+	
+	Tárolt eljárások fogják megvalósítani az ellenőrzést vagy keresést szerveroldalon.
+	
+	Fizikai adatmodellt legeneráló SQL script-et nem tartalmaz a szoftver.
