@@ -63,3 +63,72 @@ Sikeres fejlesztés feltételei_9
 
 	A Követelmény Specifikációban lejegyzett EE_KOV_017 követelmény nem fog megvalósulni. A vizsgázásról
 	a diákoknak a szoftver nem biztosít vélemény nyilvánításra felületet a GDPR miatt.
+
+
+Asztali alkalmazás
+------------------
+
+	Az asztali alkalmazás 10-15 oldalból fog állni.
+	
+	Megfeleltetés:
+		Egyszerű, letisztult felület:
+		  Az asztali alkalmazás felülete a letisztultság és egyszerűség céljának érdekében csak
+		  egér klikkelésre lesz vezérelhető.A billentyűzet használatát a vizsgázás során nem kell
+		  majd használni, kivéve az első regisztrációt követően.
+	
+		Tantárgy független:
+		  Mivel egyenlőre a szoftver csak angol nyelvű vizsgáztatást fog megvalósítani, így tantárgy
+		  független lesz. De ennek kialakítása is úgy fog történni, hogy egy esetleges továbbfejlesztés
+		  során tantárgy független legyen a kialakítás.
+		  
+		Adatvédelem:
+		  Az adatvédelemnek a felhasználóktól bekért adatok titkosításával teszünk eleget, az
+		  adatbázisban a felhasználóhoz tartozó jelszó md5-s kódolást kap, mely megakadályozza, hogy egy
+		  esetleges támadás esetén illetéktelenek kezébe kerüljenek az adatok. A bejelentkezés és 
+		  regisztráció során a felhasználó védve van a fizikiai veszélyektől, gondolunk itt arra, hogy
+		  valaki lenézi a begépelt kódot a számítógép monitoráról, hiszen a már jól bevált jelszóhoz használt
+		  beviteli típust használjuk, ami csak pontokat jelenít meg a bevitt karakterek helyén.
+
+		Helyesség: 
+		  A szofver funkcióinak megnevezésében pl.: gombok felirata, vagy csak egy sima utasítás kiírása.
+		  Nem tartalmaz obszcén gyerekek számára nem odaillő kifejezéseket, mondatokat.
+
+		Vizualitás:
+		  Az asztali alkalmazás felületének kialakítása kerüli a fekete és fehér színek használatát.
+	   	  A szofver törekszik a színek világát maximálisan kihasználni. pl.: klikkelésnél a gomb színe
+		  megváltozik, árnyékot kap. Emellett jól látható betűméretet választunk a feladatok megalkotásához.
+		  
+		Egyéni játék/egyszerű megfogalmazás:
+		  Minden  tartozó felirat, leírás, gombok kiosztása, a lehető legegyszerűbben lesz megfogalmazva.
+
+
+		Kezdőlap:
+		  Az oldal kezdő címe: EasyEnglish
+		  A cím alatt kettő gomb lesz megtalálható, egy "TANÁR" és egy "DIÁK" gomb. Mindkét gomb két
+		  önálló oldalra visz tovább ha rákattintunk.
+
+		Tanár bejelentkezés:
+		  Itt a tanári jogosultsággal rendelkező felhasználók fognak tudni csak bejelentkezni. Illetve
+		  ezen az oldalon lehet majd az admin fiókkal hozzáadni a tanárokat a rendszerhez.
+
+		Diák bejelentkezés:
+		  Hasonlóan a tanárok lapjához, itt pedig csak a diákok tudják magukat hitelesíteni, ha még valaki nem
+		  hitelesítette magát regisztrálnia kell. Sikeres regisztráció után tudnak elkezdeni vizsgázni a diákok.
+
+		Regisztráció::
+		  A bejelentkezés lapon gomb nyomásra lehet tovább lépni a regisztrációs felületre. A regisztrációs
+		  felületen meg kell adni egy atonosítót és egy jelszót. Ha ezek már megvannak akkor lehet belépni.
+		  Ha mindkettő helyesen ki lett töltve, akkor lehet regisztrálni. Az adatbázisban nem szerepelhet
+		  felhasználó név vagy jelszó kétszer. Ez azt jelenti, hogy nem létezhet több felhasználó ugyanazzal a
+		  belépési azonosítóval vagy jelszóval.
+
+		Vizsga választás:
+		  ha a diák sikeresen bejelentkezett akkor tudja elkezdeni a vizsgázást. A vizsgákat egy külön
+		  lapon tudja kiválasztani, itt egymás alatt lesznek felsorolva a választható vizsgák. Valamelyiket
+		  ki kell választani bal klikk nyomásával, ekkor a kiválasztott vizsga zöldre változik. majd a "KEZDÉS"
+	 	  gombra rákattintva fog elindulni a vizsga.
+
+		Vizsgázás: Egy oldalon egy kérdés fog megjelenni 4 választási lehetőséggel. Ezekközül kell a helyes
+		  választ kitalálni a mondathoz. Ha megvan a jó válasz, utána a "TOVÁBB" gombra kattintva lehet a
+		  következő lapra menni. A lapok között visszafelé haladni nem lehet.
+
