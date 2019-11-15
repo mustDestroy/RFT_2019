@@ -199,3 +199,8 @@ Az adatbáis típusa: MySQL.
 	Tárolt eljárások fogják megvalósítani az ellenőrzést vagy keresést szerveroldalon.
 	
 	Fizikai adatmodellt legeneráló SQL script-et nem tartalmaz a szoftver.
+
+10. Implementációs terv
+-----------------------
+
+	A két fejlesztő közös megegyezések, megbeszélések alapján kifejleszti a rájuk kiszabott feladatot.
