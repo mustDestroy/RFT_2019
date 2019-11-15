@@ -24,6 +24,60 @@ Rendszerterv
 	 6. Megutáltatni az interaktív tanulást a diákkal.	 
 
 
+5. Funkcionális terv
+--------------------
+
+	Rendszerszereplők:
+		-Diákok
+		-Tanárok		
+
+
+	Rendszer használati esetek és lefutásaik:
+		Az asztali alkalmazásban kettő jogosultsági kört választunk el egymástól. Az egyik jogosultsági
+		kör a diák, a másik a tanár.
+		
+		Diák használati esetek:
+
+			1.Kezdőlap: A kezdőoldalon a Diák lehetőséget választja ki. Ekkor egy új oldal nyílik meg.
+				   Innen több lehetősége is van a tovább lépésre attól függően, hogy
+				   regisztrált-e már vagy nem.
+
+			2.Regisztráció: Ha nem regisztrált még, akkor először a REGISZTRÁCIÓ gombra kell kattintania.
+				   Ekkor egy új oldal fog megnyílni számára, ahol űrlap formájában jelenik meg
+				   a regisztrációs felület.Itt Azonosítót és Jelszót kell megadnia a regisztrációhoz.
+				   Ha ez megvan, visszaléphet az előző oldalra.
+
+			3.Regisztráció: Ha regisztrált már akkor ezen az oldalon kitölti az Azonosító és Jelszó panelt
+				   helyesen. Ezután a belépés gombra kattintva belép a rendszerbe.
+
+			4.Belépés: Amikor belépett, megejelenik előtte a vizsgák listája a megnyíló új ablakban.
+				   Ezekből választ egyet bal klikkel rákattintva. A KEZDÉS gombal tudja elindítani
+				   a vizsgát.
+
+			5.Vizsgázás: A vizsga elindítása után egymást követő új lapokon fognak egyessével megjelenni
+				     a feladatok. Minden feladatban 4 válaszlehetősége lesz a diáknak, amelyekből a
+				     helyeset kell kiválasztania. Az egyik feladatról a következőre lépni a TOVÁBB
+				     gombra kattintva lehet.
+
+			6.Vizsga bejefezése: Az utolsó feladat befejezése után a KÉSZ gombra kattintva a vizsga 
+				     eredménye elmentődik, és a program bezárul.
+
+		Tanár használati esetek:
+
+		1.Kezdőlap: A kezdőlapon a Tanár opciót választja.
+
+		2.Regisztráció: Ha nem regisztrált még, akkor először a REGISZTRÁCIÓ gombra kell kattintania.
+			    Ekkor egy új oldal fog megnyílni számára, ahol űrlap formájában jelenik meg a
+			    regisztrációs felület. Itt Azonosítót és Jelszót kell megadnia a regisztrációhoz. Ha ez
+			    megvan, visszaléphet az előző oldalra.
+
+		3.Belépés: Ha regisztrált már akkor ezen az oldalon kitölti az Azonosító és Jelszó panelt helyesen.
+			   Ezután a belépés gombra kattintva belép a rendszerbe.
+
+		4.Lekérés:Miután belépett le tudja kérni napra pontosan, hogy aznap ki/kik vizsgáztak.
+ 			   Ezt a LEKÉR gombra kattintva teheti meg.
+
+		5..Kilépés: A képernyő jobb alsó sarkában van egy KILÉPÉS gomb, ekkor a program bezárul.
 
 
 
