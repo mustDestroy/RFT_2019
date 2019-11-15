@@ -22,6 +22,26 @@ Rendszerterv
 	 4. Elvonni a tanuló figyelmét a vizsgáztatás tényéről.
 	 5. Tanulók stresszelése a számítógépen történő vizsgával.
 	 6. Megutáltatni az interaktív tanulást a diákkal.
+
+2. Projekt terv
+---------------
+
+	Projekt: Vizsgáztatást segítő program
+
+	Erőforrások felsorolása:
+		Idő:
+			A projekt kezdete: 2019.10.28.
+			A szofver átadása: 2018.11.28.
+			A rendelkezésre álló munkanapok száma: 19
+			A rendelkezésre álló fejlesztési órák száma (napi 8 órával számolva): 152 óra
+	
+	Munkaerő:
+		2 fő:
+	   		1 fő 	Junior full stack fejlesztő
+     	   		1 fő 	Junior tesztmérnök
+
+	Az óradíjak kiszámolását a projekt mérete alapján végeztük, és ezt az árajánlat tartalmazza. 
+
 	 
 4. Követelménylista:
 --------------------
