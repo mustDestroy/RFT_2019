@@ -43,7 +43,7 @@ Rendszerterv
 	Az óradíjak kiszámolását a projekt mérete alapján végeztük, és ezt az árajánlat tartalmazza. 
 
 	 
-4. Követelménylista:
+3. Követelménylista:
 --------------------
 
 ----ID----	--------------NÉV--------------		-------------------------------------KIFEJTÉS----------------------------------------
@@ -58,7 +58,7 @@ EE_KOV_010	Helyesség				Az oktatáshoz feltétleb működési, tartalmi, fogalm
 EE_KOV_014	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszer-
 							 követelmény, a gyenge gépeken is jól működjön
 
-5. Funkcionális terv
+4. Funkcionális terv
 --------------------
 
 	Rendszerszereplők:
@@ -140,7 +140,7 @@ EE_KOV_014	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforr�
 		A Funkcionális specifikációban csatolva.
 
 
-6.Fizikai környezet
+5.Fizikai környezet
 -------------------
 
 Környezetek leírása:
@@ -182,7 +182,7 @@ Fizikai alrendszerek:
 		A szofver nem kapcsolódik az említetteken kívül más fizikai alrendszerekhez.
 
 
-9. Adatbázis terv:
+6. Adatbázis terv:
 -----------------
 Az adatbáis típusa: MySQL.
 
@@ -200,7 +200,7 @@ Az adatbáis típusa: MySQL.
 	
 	Fizikai adatmodellt legeneráló SQL script-et nem tartalmaz a szoftver.
 
-10. Implementációs terv
+7. Implementációs terv
 -----------------------
 
 	A két fejlesztő közös megegyezések, megbeszélések alapján kifejleszti a rájuk kiszabott feladatot.
