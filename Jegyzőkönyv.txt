@@ -287,13 +287,16 @@ Téma: Funkcionális Specifikáció
 Hossz: --
 
 A funkcionális specifikáció 2019.11.11-re elkészült.
+A Képernyőtervekhez használt eszközben módosítás történt,
+moqups helyett PhotoShop-t használtak, mert a moqups nem
+engedte a folyamatos mentést.
 
 ---Jegyzőkönyv vége 2019.11.11.---
 
 
 LogNgin Tech Kft.
 3300-Eger, Példa utca 1.
-2019.11.13.
+2019.11.12.
 
 Project: Easy English
 Téma: Képernyőképek elküldése
@@ -305,7 +308,31 @@ ezért a szofver további fejlesztését elkezdtük megtervezni.
 ---Jegyzőkönyv vége 2019.11.12.---
 
 
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2019.11.13.
 
+Project: Easy English
+Téma: Online Meeting a Rendszertervről.
+Hossz: --
+
+2019.11.13-án a Rendszerterv, és Rendszerjavaslat elkészítésének feladatai kerültek kiosztásra.
+
+	Tajti Mátyás:
+		-Követelmények kidolgozása
+		-Projekt terv
+		-Implementációs terv
+			
+	Angyal Dominik:
+		-Funkcionálisterv
+		-Adatbázis terv
+		-Fizikai környezet
+		-Célok
+		-Rendszerjavaslat
+
+A Rendszertervnek 2019.11.15. 14:00-ra kell elkészülnie.
+
+---Jegyzőkönyv vége 2019.11.13.---
 
 
 
