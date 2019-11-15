@@ -106,3 +106,43 @@ Rendszerterv
 		A Funkcionális specifikációban csatolva.
 
 
+6.Fizikai környezet
+-------------------
+
+Környezetek leírása:
+
+	Futtató környezet szoftveres leírása:
+		Operációs rendszer: Microsoft Windows 7, 10 64 bit
+
+	Futtató környezet hardveres leírása: HP EliteDesk 800 G1
+		- processzor: 5. generációs i5
+		- memória: 4-8GB DDR3-as memória
+		- integrált videókártya
+		- merevlemez: 320 GB 5400 rpm
+	
+	Hálózati topológia:
+		Csillag topológia
+		
+		
+Platform választása:
+	A környezet hardveres és szoftveres leírása alapján a platformot java-nak választottuk meg.
+	Manapság ez az egyik legnépszerűbb nyelv a világon.
+			
+Keretrendszer meghatározása:
+	A futtatható környezet hardveres és szofveres leírása alapján az asztali alkalmazás fejlesztését illetően
+	JavaFX FXML Application keretrendszer mellett döntöttünk. Ez a keretrendszer egyszerű, mégis design-os GUI 
+	fejleszthető benne.
+	A futtató környezet hardveres és szoftveres  leírása alapján, a fejlesztés platformját az asztali alkalmazás
+	részéről Java-nak választottukmeg.
+	Az adatbázis létrehozásához MySQL-t fogunk használni.
+	
+Fejlesztői eszközök:
+	Az asztali alkalmazáshoz NetBeans keretrendszert használata mellett döntöttek.
+	Az adatbázis létrehozásához pedig MySQl Workbench-t fogunk használni.
+	
+Vásárolt szoftver komponensek:
+	 A lefejlesztendő szoftver, mint termék nem tartalmaz külső fizetett szoftver komponenseket. A létrejött
+	szofver 100%-ban a munkavállaló terméke.
+
+Fizikai alrendszerek:
+		A szofver nem kapcsolódik az említetteken kívül más fizikai alrendszerekhez.
