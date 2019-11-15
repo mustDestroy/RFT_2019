@@ -21,8 +21,22 @@ Rendszerterv
 	 3. Felesleges ismeretek átadása.
 	 4. Elvonni a tanuló figyelmét a vizsgáztatás tényéről.
 	 5. Tanulók stresszelése a számítógépen történő vizsgával.
-	 6. Megutáltatni az interaktív tanulást a diákkal.	 
+	 6. Megutáltatni az interaktív tanulást a diákkal.
+	 
+4. Követelménylista:
+--------------------
 
+----ID----	--------------NÉV--------------		-------------------------------------KIFEJTÉS----------------------------------------
+EE_KOV_001	Egyszerű, letisztult felület		Mindenképp a tanulók számára érthető, könnyen kezelhető felületet szeretnénk
+EE_KOV_003	Tantárgy független	 		A programot a jelenleg oktatott összes tantárgy tanítására szeretnénk használni
+EE_KOV_005	Egyéni játék				Egy iskolás által kezelt programot kell létrehozni
+EE_KOV_007	Adatvédelem				Az adatokat szigorúan a GDPR-nak megfelelően kell kezelni.
+EE_KOV_009	Jogosultság				Olyan funkciót tartamazzon, ami a különböző szerepkörök egyedi jogait nem engedélyezi
+							 a többinek
+EE_KOV_010	Helyesség				Az oktatáshoz feltétleb működési, tartalmi, fogalmi, és nyelvtani hibák nélküli
+							 programra van szükség
+EE_KOV_014	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszer-
+							 követelmény, a gyenge gépeken is jól működjön
 
 5. Funkcionális terv
 --------------------
