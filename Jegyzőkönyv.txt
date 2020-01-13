@@ -7,9 +7,9 @@ LogNgin Tech Kft.
 
 Téma: Új projekt felvétele.
 
-Az Eszterházy K. Gyakorló Iskolától megérkezett egy árajánlat kérés szofverfejlesztésre 2019.12.15-ös határidővel.
+Az Eszterházy K. Gyakorló Iskolától megérkezett egy árajánlat kérés szofverfejlesztésre 2020.01.26-ös határidővel.
 A Scrum Master összehívta a fejlesztő csapatot, az esetleges projekt elvállalásáról, ahol arra jutottunk, hogy 
-amennyiben a projekt megvalósítható 2 hónapon belül, akkor elvállaljuk.
+amennyiben a projekt megvalósítható 3 hónapon belül, akkor elvállaljuk.
 Azonban nem állt rendelkezésünkre elég információ, hogy a projet hosszát meg tudtuk volna becsülni, azért
 mielőtt felvennénk a projektet egy személyes meetinget kértünk az iskolától, hogy egy Szabad Riport formájában
 összegezzük a szofverrel való fontos tudnivalókat.
@@ -25,8 +25,8 @@ LogNgin Tech Kft.
 
 Téma: Személyes találkozó a Kft-nél.
 
-A szerződni kívánó féllel elkészítettük a Szabad Riportot. A Eszterházy K. Gyakorló Iskolát Magyar Barbara, és
-Páncsics Nikoletta képviselte, még a LogNgin Tech Kft. részéről Angyal Dominik vett részt a találkozón.
+A szerződni kívánó féllel elkészítettük a Szabad Riportot. A Eszterházy K. Gyakorló Iskolát M. Barbara, és
+P. Nikoletta képviselte, még a LogNgin Tech Kft. részéről Angyal Dominik vett részt a találkozón.
 A Szabad Riport elkészülése után meghatároztuk, hogy a kapott határidőre megvalósítható a kért szoftver átadása.
 A szerződő felek megállapodtak, hogy az árajánlatot elküldik 2019.11.26-án.
 Emelett azt is lefixálták, hogy az iskolának el kell készítenie a Követelmény Specifikációt, amiben a Szabad Riportot
@@ -166,8 +166,8 @@ Project: Easy English
 Téma: Megrendelés elfogadva
 
 Az Eszterházy K. Gyakorló Iskola elfogadta az árajánlatot. A szofver megrendelése véglegesítve lett.
-Átadás határideje: 2019.11.28.
-Előleg átutalásának dátuma: 2019.11.29.
+Átadás határideje: 2020.01.26.
+Előleg átutalásának határideje:2019.11.15.
 
 ---Jegyzőkönyv vége 2019.10.28.---
 
@@ -193,8 +193,8 @@ Hossz: 40 perc
 
 Tajti Mátyással lefixáltuk a következőket:
 	Felhasznált keretrendszer: Java FXML Application
-	Fejlesztői eszközök: Windiws platform, NetBeans, MySql, TortoiseGit
-	Time Management
+	Fejlesztői eszközök: Windows platform, NetBeans, MySql, TortoiseGit
+	Time Management: Trello
 	Modell mely elvei alapján fejlesztünk: V-modell.
 	Jegyzőkönyvet vezeti Angyal Dominik.
 	Verziókövető rendszer: Git
@@ -260,7 +260,7 @@ Sprint határideje: 2019.11.11. 22:00
 
 LogNgin Tech Kft.
 3300-Eger, Példa utca 1.
-2019.11.07.
+2019.11.09.
 
 Project: Easy English
 Téma: Stand up meeting-Funkcionális Specifikáció
@@ -330,7 +330,7 @@ Hossz: --
 		-Célok
 		-Rendszerjavaslat
 
-A Rendszertervnek 2019.11.15. 14:00-ra kell elkészülnie.
+A Rendszertervnek 2020.01.15. 14:00-ra kell elkészülnie.
 
 ---Jegyzőkönyv vége 2019.11.13.---
 
