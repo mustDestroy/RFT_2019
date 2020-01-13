@@ -200,7 +200,38 @@ Fizikai alrendszerek:
 		A szofver nem kapcsolódik az említetteken kívül más fizikai alrendszerekhez.
 
 
-6. Adatbázis terv:
+6. Architektrális terv:
+-----------------------
+
+Az architekturális tervezési mintát MVC-nek választottuk meg. Ez egy 3 rétegű alkalmazás, melynek
+ segítségével jól el tudjuk különíteni a különböző rétegeket egymástól.
+ 
+ Az alkalmazás rétegei:
+	1. Modell: Adatbázist kezelő osztály létrehozása. Singleton tervezési mintával létesítjük a kapcsolatot
+	 	   az adatbázissal. Mindemellett az adatbáziskezelő osztály más, általunk megírt funkciókat
+	           tartalmaz amely a Controll rétegben lévő állományok használhatnak majd. Például ilyen jelszavak
+         	   hitelesítése, eredmények elmentése az adatbázisba.
+ 		   A kliens oldalról érkező kéréseket az adatbáziskezelő osztály metódusai segítségével továbbítja
+		   az adatbázisnak.
+	
+	2. Controller: Ez a réteg kezeli a View rétegtől érkező események feldolgozását, például: klikkelések.
+		       Továbbá a controller layer-ek saját metódusokat alkalmaznak, hogy egy beérkező 
+                       események hatására új old töltődjön be, az előző oldal pedig becsukódjon, ezzel spórolva
+ 		       az erőforrásokat.
+	
+	3. View: Ez a réteg látható az alkalmazásból a felhasználó számára. Itt a követelményben is külön feltüntetett
+	  	 színes grafikai elemekkel dolgozunk, legyen az háttér, egy gomb vagy egy megfejelnő felirat.
+
+
+A rendszer bővíthetősége:
+
+	A rendszer megvalósítását Java nyelven implementáltuk, ami egy OOP nyelv, ezzel is biztosítva a könnyebb
+	programozhatóságot ha bővítésre kerülne a sor.
+	A programban minden grafikus oldal különálló, saját Controller-rel rendelkezik, így egy esetleges bővítés könnyen
+	megvalósítható.
+
+
+7. Adatbázis terv:
 -----------------
 Az adatbáis típusa: MySQL.
 
@@ -218,7 +249,7 @@ Az adatbáis típusa: MySQL.
 	
 	Fizikai adatmodellt legeneráló SQL script-et nem tartalmaz a szoftver.
 
-7. Implementációs terv
+8. Implementációs terv
 -----------------------
 
 	A két fejlesztő közös megegyezések, megbeszélések alapján kifejleszti a rájuk kiszabott feladatot.
