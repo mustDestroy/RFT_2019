@@ -42,9 +42,24 @@ Rendszerterv
 
 	Az óradíjak kiszámolását a projekt mérete alapján végeztük, és ezt az árajánlat tartalmazza. 
 
+	Felelősségi körök leírása:
+
+		   T. Mátyás: - GUI-kezdőképernyő létrehozása
+			      - GUI-regisztrációs felületek létrehozása		
+			      - GUI-bejelentkező felületek létrehozása
+			      - GUI-vizsgázó ablakok létrehozása
+			      - GUI-tanári vizsgalekérés felülete
+
+		  A. Dominik: - Adatbázis szerver létrehozása
+			      - Adatbázistáblák létrehozása
+			      - Adatbáziskapcsolatok kezelése
+
+
 	 
 3. Követelménylista:
 --------------------
+
+Funkcionális követelmények:
 
 ----ID----	--------------NÉV--------------		-------------------------------------KIFEJTÉS----------------------------------------
 EE_KOV_001	Egyszerű, letisztult felület		Mindenképp a tanulók számára érthető, könnyen kezelhető felületet szeretnénk
@@ -57,6 +72,9 @@ EE_KOV_010	Helyesség				Az oktatáshoz feltétleb működési, tartalmi, fogalm
 							 programra van szükség
 EE_KOV_014	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszer-
 							 követelmény, a gyenge gépeken is jól működjön
+
+
+
 
 4. Funkcionális terv
 --------------------
