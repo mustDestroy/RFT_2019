@@ -32,7 +32,7 @@ program ezeken hibamentesen működjön.
 	A rendszer úgy legyen elkészítve, hogy a tanárokon kívül más illetéktelen ne tudja megnézni a gyerekek vizsgáit.
 	Az adatbázis fájlok ne legyenek elérhetőek külsősök számára.
 	Az új jogszabályok magas bírságokkal kényszerítik ki a biztonságos adatkezelést, vagyis azt,
-	hogy személyes adatainkhoz ne férhessenek hozzá illetéktelenek. A bíró gyakorlat még hiányzik, de a bírság akár 
+	hogy személyes adatainkhoz ne férhessenek hozzá illetéktelenek. A bírói gyakorlat még hiányzik, de a bírság akár 
 	20 millió euró vagy az éves árbevétel 4 %- a is lehet olyan eseteket is szabályoz és szankcionál a rendelkezés,
 	amikor például egy hackertámadás következtében személyes adataink kikerülnek az adatkezelő rendszeréből,
 	ellopják azokat vagy ha egy rendszerhiba miatt megsemmisülnek. Nagyobb lesz a felelősség az adatkezelőkön
@@ -80,22 +80,22 @@ Az alkalmazáson belül lenne egy személyes menü (adatmódosításra), régebb
 
 A riport alapján a megrendelő elvárásai a következők:
 
---ID--		--NÉV--					--KIFEJTÉS--
-EE_KOV_001	Egyszerű, letisztult felület		Mindenképp a tanulók számára érthető, könnyen kezelhető felületet szeretnénk
-EE_KOV_002	Játékos megoldások			Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára
-							 minél élvezhetőbb legyen a tanulás folyamata
-EE_KOV_003	Tantárgy független	 		A programot a jelenleg oktatott összes tantárgy tanítására szeretnénk használni
-EE_KOV_004	Felület					A könnyű elérés érdekében szeretnénk webes és Android környezetű felületet is.
-EE_KOV_005	Egyéni játék				Egy iskolás által kezelt programot kell létrehozni
-EE_KOV_006	Jutalomrendszer				Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
-EE_KOV_007	Adatvédelem				Az adatokat szigorúan a GDPR-nak megfelelően kell kezelni.
-EE_KOV_008	Feladatok				A felület alkalmas legyen különböző témájú feladatok összeállítására.
-EE_KOV_009	Helyesség				Az oktatáshoz feltétleb működési, tartalmi, fogalmi, és nyelvtani hibák nélküli
-							 programra van szükség
-EE_KOV_010	Megbízhatóság				Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen amikor
-							 egyszerre sok felhasználó használja
+--ID--		--NÉV--						--KIFEJTÉS--
+EE_KOV_001	Egyszerű, letisztult felület	Mindenképp a tanulók számára érthető, könnyen kezelhető felületet szeretnénk
+EE_KOV_002	Játékos megoldások				Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára
+												minél élvezhetőbb legyen a tanulás folyamata
+EE_KOV_003	Tantárgy független	 			A programot a jelenleg oktatott összes tantárgy tanítására szeretnénk használni
+EE_KOV_004	Felület							A könnyű elérés érdekében szeretnénk webes és Android környezetű felületet is.
+EE_KOV_005	Egyéni játék					Egy iskolás által kezelt programot kell létrehozni
+EE_KOV_006	Jutalomrendszer					Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
+EE_KOV_007	Adatvédelem						Az adatokat szigorúan a GDPR-nak megfelelően kell kezelni.
+EE_KOV_008	Feladatok						A felület alkalmas legyen különböző témájú feladatok összeállítására.
+EE_KOV_009	Helyesség						Az oktatáshoz feltétlen működési, tartalmi, fogalmi, és nyelvtani hibák nélküli
+											programra van szükség
+EE_KOV_010	Megbízhatóság					Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen amikor
+											egyszerre sok felhasználó használja
 EE_KOV_011	Hatékonyság/magas teljesítmény  	A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszer-
-							 követelmény, a gyenge gépeken is jól működjön
+											követelmény, a gyenge gépeken is jól működjön
 EE_KOV_012	Visszejelzés				A diákoknak lehetőséget ad az aktuális témakörről visszajelzést írni
 
 
