@@ -231,7 +231,7 @@ nem megvalósíthatóak az elvárt határidőn belül.
 	Indokok:
 	  - androidos felületet létrehozni, drágább és nincs rá humán erőforrás a Kft-nél.
 	  - a jutalomrendszert azért nehéz megvalósítani, mert nem gyakorló feladatokról van szó, hanem vizsgáztatásról.
-	  - Asztali alkalmazásba keresést teéjesen felesleges beleépíteni, és egy keresőmotor a szofver optimalizációjánál
+	  - Asztali alkalmazásba keresést teljesen felesleges beleépíteni, és egy keresőmotor a szofver optimalizációjánál
 	    sok erőforrást igényel.
 	  - A visszajelzés nem lett megemlítve az elkészített Szabad Riport során, így a programban nem lesz megvalósítva,
 	    ez a funkció.
@@ -280,7 +280,7 @@ nem megvalósíthatóak az elvárt határidőn belül.
 			Egy oldalon 2 kérdés jelenik majd meg, mindegyikre 4 válasz lehetőség van, amiből csak 1 a helyes.
 			Ha a user kiválaszt egyet, de meggondolja magát, akkor van lehetősége másikat választani. A megjelölt
 			választ zöldel fogja jelölni a program. Ha a felhasználó biztos hogy a jót választotta
-			akkor a 'KÖVTKEZő' gombra kattintva léphet át az új oldalra. Az oldalak között nem lehet visszalépedni,
+			akkor a 'KÖVTKEZő' gombra kattintva léphet át az új oldalra. Az oldalak között nem lehet visszalépkedni,
 			tehát ha egyszer a user rányomott 'KÖVETKEZŐ'-re akkor már nem lehet visszamenni. 
 	
 	8. Ha a vizsgának vége, 'KÉSZ' gombra kattintva a program bezárul, az eredményt elmenti az adatbázisba. A Tanár email
