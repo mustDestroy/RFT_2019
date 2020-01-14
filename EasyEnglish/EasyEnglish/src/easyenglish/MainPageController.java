@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package easyenglish.controller;
+package easyenglish;
 
 import easyenglish.Modell.Singleton;
 import java.io.IOException;
@@ -33,22 +33,22 @@ public class MainPageController implements Initializable {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
         //boolean r = Authentication(1, "1");
+        TeacherRegistration(1,"asd123","kutya");
     }
 
     public boolean Authentication(int id, String pw) throws SQLException {
-        int i_d = 103450;
-        String p_w = "malac";
+       
 
         Singleton conn = Singleton.getInstance();       //connection példány
         CallableStatement cs;
-        cs = conn.getConnection().prepareCall("{call authentication(?,?)}"); // itt hívom meg a tárolt eljárást
+        cs = conn.getConnection().prepareCall("{call authForStudents(?,?)}"); // itt hívom meg a tárolt eljárást
         cs.setInt("id", 100);
-        cs.setString("pass", p_w);
+        cs.setString("pass","malac");
 
         boolean rs = cs.execute();
 
         if (rs == true){ // ekkor dob át másik oldalra
-               // System.out.println("Működik");
+                System.out.println("Működik");
         } else {
             System.out.println("nem működik");
         }
@@ -56,7 +56,26 @@ public class MainPageController implements Initializable {
         return true;
     }
 
-    
+    public void TeacherRegistration(int id, String pw, String name) throws SQLException {
+        Singleton conn = Singleton.getInstance();
+        CallableStatement cs;
+        cs = conn.getConnection().prepareCall("{call AddStudent(?,?,?)}");
+        cs.setInt("id", id);
+        cs.setString("pass", pw);
+        cs.setString("name", name);
+        cs.execute();
+        
+//        Boolean rs = cs.execute();
+//        
+//        if(rs){
+//            System.out.println("registration was successfull");
+//            return true;
+//        }else{
+//            System.out.println("registration failed");
+//            return false;
+//        }
+    }
+
     
     
     @Override
