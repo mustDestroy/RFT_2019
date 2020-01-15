@@ -16,13 +16,12 @@ import javafx.stage.Stage;
  * @author Dominik
  */
 public class EasyEnglish extends Application {
-    
+
     @Override
     public void start(Stage stage) throws Exception {
+        //iinnen indul el az egész program, ez tölti be a legelső oldalt.
         Parent root = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
-        
         Scene scene = new Scene(root);
-        
         stage.setScene(scene);
         stage.show();
     }
@@ -33,5 +32,5 @@ public class EasyEnglish extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }
