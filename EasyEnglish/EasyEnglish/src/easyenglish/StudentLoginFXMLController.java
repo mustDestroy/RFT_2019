@@ -46,34 +46,40 @@ public class StudentLoginFXMLController implements Initializable {
     private Label lblErrorMessage;
 
     public void btnStudentLoginAction(ActionEvent event) throws IOException, SQLException {
-        
-        String id = txtFieldStudentId.getText().trim(); //kiszedem a space-kat
-        int numberId = Integer.valueOf(id);
 
-        if (Authentication(numberId, txtFieldStudentPw.getText().trim())) {
-            Stage examStartStage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("exerciseFXML.fxml"));
-            Scene scene = new Scene(root);
-            examStartStage.setScene(scene);
-            examStartStage.show();
-
-            Node closeLogin = (Node) event.getSource();
-            Stage stage = (Stage) closeLogin.getScene().getWindow();
-            stage.close();
-            stage.setFullScreen(true);
-
+        if (txtFieldStudentId.getText().equals("")
+                || txtFieldStudentPw.getText().equals("")) {
+            lblErrorMessage.setText("Egyik mező sem lehet üres");
         } else {
-            lblErrorMessage.setText("Azonosító vagy jelszó hibás");
+
+            String id = txtFieldStudentId.getText().trim(); //kiszedem a space-kat
+            int numberId = Integer.valueOf(id);
+
+            if (Authentication(numberId, txtFieldStudentPw.getText().trim())) {
+                Stage examStartStage = new Stage();
+                Parent root = FXMLLoader.load(getClass().getResource("ExerciseStartFXML.fxml"));
+                Scene scene = new Scene(root);
+                examStartStage.setScene(scene);
+                examStartStage.show();
+
+                Node closeLogin = (Node) event.getSource();
+                Stage stage = (Stage) closeLogin.getScene().getWindow();
+                stage.close();
+                stage.setFullScreen(true);
+
+            } else {
+                lblErrorMessage.setText("Azonosító vagy jelszó hibás");
+            }
         }
 
     }
 
     public void btnGoToRegistrationAction(ActionEvent event) throws IOException {
-        Stage rgstStage = new Stage();
-        Parent root = FXMLLoader.load(getClass().getResource("studentRegistrationFXML.fxml"));
+        Stage mainStage = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("StudentRegistrationFXML.fxml"));
         Scene scene = new Scene(root);
-        rgstStage.setScene(scene);
-        rgstStage.show();
+        mainStage.setScene(scene);
+        mainStage.show();
 
         Node closeLogin = (Node) event.getSource();
         Stage stage = (Stage) closeLogin.getScene().getWindow();
