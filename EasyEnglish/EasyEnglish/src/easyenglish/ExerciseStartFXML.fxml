@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyenglish.ExerciseStartFXMLController">
+   <children>
+      <Button fx:id="btnStartTest" layoutX="281.0" layoutY="213.0" mnemonicParsing="false" onAction="#btnStartTestAction" text="Teszt indítása" textAlignment="CENTER" />
+      <Button fx:id="btnAnswr1" layoutX="98.0" layoutY="325.0" mnemonicParsing="false" onAction="#btnAnswr1Action" prefHeight="25.0" prefWidth="120.0" text="Button" />
+      <Button fx:id="btnAnswr2" layoutX="454.0" layoutY="325.0" mnemonicParsing="false" onAction="#btnAnswr2Action" prefHeight="25.0" prefWidth="120.0" text="Button" textAlignment="CENTER" />
+      <Button fx:id="btnAnswr3" layoutX="98.0" layoutY="394.0" mnemonicParsing="false" onAction="#btnAnswr3Action" prefHeight="25.0" prefWidth="120.0" text="Button" textAlignment="CENTER" />
+      <Button fx:id="btnAnswr4" layoutX="454.0" layoutY="394.0" mnemonicParsing="false" onAction="#btnAnswr4Action" prefHeight="25.0" prefWidth="120.0" text="Button" textAlignment="CENTER" />
+      <Label fx:id="lblMessage" layoutX="175.0" layoutY="80.0" prefHeight="57.0" prefWidth="311.0" text="Helyettesítse be az ige megfelelő alakját a mondatokba!" textAlignment="CENTER" />
+      <Button fx:id="btnNext" layoutX="575.0" layoutY="407.0" mnemonicParsing="false" onAction="#btnNextAction" text="Tovább" />
+      <Button fx:id="btnFinish" layoutX="273.0" layoutY="350.0" mnemonicParsing="false" onAction="#btnFinishAction" prefHeight="57.0" prefWidth="120.0" text="Kész" />
+      <Label fx:id="lblResult" layoutX="259.0" layoutY="293.0" prefHeight="25.0" prefWidth="142.0" />
+   </children>
+</AnchorPane>

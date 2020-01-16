@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyenglish.StudentRegistrationFXMLController">
+   <children>
+      <Button fx:id="btnRegistrarion" layoutX="489.0" layoutY="358.0" mnemonicParsing="false" onAction="#btnRegistrationAction" text="Regisztrálok" />
+      <TextField fx:id="txtRegStudentId" layoutX="447.0" layoutY="137.0" promptText="Diákazonosító szám" />
+      <TextField fx:id="txtRegStudentName" layoutX="447.0" layoutY="200.0" promptText="Név" />
+      <PasswordField fx:id="txtRegStudentPw" layoutX="447.0" layoutY="261.0" promptText="Jelszó" />
+      <Button fx:id="btnBack" layoutX="504.0" layoutY="411.0" mnemonicParsing="false" onAction="#btnBackAction" text="Vissza" />
+      <Label fx:id="lblErrorMessage" layoutX="447.0" layoutY="319.0" prefHeight="17.0" prefWidth="149.0" />
+   </children>
+</AnchorPane>
