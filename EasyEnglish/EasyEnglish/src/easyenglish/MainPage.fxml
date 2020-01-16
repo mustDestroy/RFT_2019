@@ -10,7 +10,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyenglish.MainPageController">
     <children>
-        <Button fx:id="btnTeacher" layoutX="29.0" layoutY="242.0" onAction="#btnTeacherAction" prefHeight="160.0" prefWidth="285.0" style="-fx-background-color: #90a1e0; -fx-background-radius: 40px; -fx-line-spacing: -20px;" text="TANÁR VAGYOK" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+        <Button fx:id="btnTeacher" layoutX="29.0" layoutY="242.0" onAction="#btnTeacherAction" prefHeight="160.0" prefWidth="285.0" style="-fx-background-color: #90a1e0; -fx-background-radius: 40px; -fx-line-spacing: -20px; -fx-border-color: #999; -fx-border-radius: 40px;" text="TANÁR VAGYOK" textAlignment="CENTER" textFill="WHITE" wrapText="true">
          <font>
             <Font name="Segoe UI Black" size="45.0" />
          </font></Button>
@@ -18,11 +18,11 @@
          <font>
             <Font size="70.0" />
          </font></Label>
-      <Button fx:id="btnStudent" layoutX="344.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnStudentAction" prefHeight="160.0" prefWidth="285.0" style="-fx-background-color: #90bde0; -fx-background-radius: 40px; -fx-line-spacing: -20px;" text="DIÁK VAGYOK" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+      <Button fx:id="btnStudent" layoutX="344.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnStudentAction" prefHeight="160.0" prefWidth="285.0" style="-fx-background-color: #90bde0; -fx-background-radius: 40px; -fx-line-spacing: -20px; -fx-border-color: #999; -fx-border-radius: 40px;" text="DIÁK VAGYOK" textAlignment="CENTER" textFill="WHITE" wrapText="true">
          <font>
             <Font name="Segoe UI Black" size="45.0" />
          </font></Button>
-      <Label alignment="CENTER" layoutX="172.0" layoutY="132.0" prefHeight="21.0" prefWidth="355.0" text="JÁTÉKOS TANULÁS" textAlignment="CENTER" textFill="#5470c0">
+      <Label fx:id="Label_JatekosTanulas" alignment="CENTER" layoutX="172.0" layoutY="132.0" prefHeight="21.0" prefWidth="355.0" text="JÁTÉKOS TANULÁS" textAlignment="CENTER" textFill="#5470c0">
          <font>
             <Font name="Segoe UI Light" size="30.0" />
          </font>
