@@ -262,3 +262,14 @@ Az adatbáis típusa: MySQL.
  	Ezenfelül könyebben lesz bővíthető a szofver és az architektúrája is könyebben átlátható lesz.
 	A Modell réteg feladatait egy Singleton tervezési mintával elkészített adatbáziskezelő osztály.
 
+9. Tesztterv
+-----------
+
+	A megtervezett osztályok Unit Tesztek segítségével lesznek megvalósítva.
+	1. A Modell réteg kommunikációjának tesztelése az adatbázis szerverrel.
+		például: létrejön e a kapcsolat, illetve milyen hibákat kell elkpani.
+	2. Modell réteg kommunikációja a Controller réteggel. Például: Singleton példány létrehozása
+		és a példány által biztosított metódusok használatának tesztelése.
+	3. Események tesztelése melyek a kliens réteg és a controller réteg között történnek.
+	
+	Ha az előző 3 lépés működik, akkor a teljes program kipróbálása.
