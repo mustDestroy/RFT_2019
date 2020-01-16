@@ -237,19 +237,28 @@ Az adatbáis típusa: MySQL.
 
 	Logikai adatmodell
 	
-	Az adatbázis 2 táblából fog állni.
+	Az adatbázis 3 táblából fog állni.
 
-	1. tábla: regisztrált diákok azonosítója, jelszava, neve, osztály, regisztrálás dátuma.
+	1. tábla: regisztrált diákok azonosítója, jelszava, neve.
 		A tábla 2. NF-ben van. Minden sort egyértelműen azonosít a tblához tartozó kulcs, amely nem
 		összetett kulcs.
 
-	2. tábla: tanuló azonosítója, tanuló neve, melyik vizsgát végezte el, mikor végezte, dátum 
+	2. tábla: tanár azonosítója, tanár neve, jelszava.
+	
+	3. tábla: a feladatokhoz használt kérdések táblája
+		id, mondat, válasz1, válasz2, válasz3, válasz4, jó válasz sorszáma
 	
 	Tárolt eljárások fogják megvalósítani az ellenőrzést vagy keresést szerveroldalon.
+	Tárolt eljárással lesz megvalósítva az autentikáció és a különböző mentések.
 	
 	Fizikai adatmodellt legeneráló SQL script-et nem tartalmaz a szoftver.
 
 8. Implementációs terv
 -----------------------
 
-	A két fejlesztő közös megegyezések, megbeszélések alapján kifejleszti a rájuk kiszabott feladatot.
+	Minden .FXML fájlnak saját controller osztálya lesz, az MVC rétegek kialakítása miatt.
+	A Controller osztályban lesznek a kliens rétegekt képező .FXML fájlok eseményeinek a kezelése
+	pl: egér klikkelés.
+ 	Ezenfelül könyebben lesz bővíthető a szofver és az architektúrája is könyebben átlátható lesz.
+	A Modell réteg feladatait egy Singleton tervezési mintával elkészített adatbáziskezelő osztály.
+
