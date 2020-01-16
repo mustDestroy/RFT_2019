@@ -43,7 +43,11 @@ public class TeacherLoginFXMLController implements Initializable {
         if (txtFieldTeacherId.getText().equals("")
                 || txtFieldTeacherPw.getText().equals("")) {
             lblErrorMessage.setText("Egyik mező sem lehet üres");
-        } else {
+        } 
+         else if(!txtFieldTeacherId.getText().trim().matches("[0-9]+")){
+                lblErrorMessage.setText("Az azonosító csak számot tartalmazhat");
+        }
+        else {
 
             String id = txtFieldTeacherId.getText().trim(); //kiszedem a space-kat
             int numberId = Integer.valueOf(id);

@@ -50,7 +50,11 @@ public class StudentLoginFXMLController implements Initializable {
         if (txtFieldStudentId.getText().equals("")
                 || txtFieldStudentPw.getText().equals("")) {
             lblErrorMessage.setText("Egyik mező sem lehet üres");
-        } else {
+        } 
+        else if(!txtFieldStudentId.getText().trim().matches("[0-9]+")){
+                lblErrorMessage.setText("Az azonosító csak számot tartalmazhat");
+        }
+        else {
 
             String id = txtFieldStudentId.getText().trim(); //kiszedem a space-kat
             int numberId = Integer.valueOf(id);
@@ -103,6 +107,7 @@ public class StudentLoginFXMLController implements Initializable {
         }
 
     }
+
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {

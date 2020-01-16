@@ -57,7 +57,11 @@ public class MainPageController implements Initializable {
 
     @FXML
     private void btnStudentAction(ActionEvent event) throws IOException {
-
+        
+        String s= "3134542";
+        System.out.println(s.matches("[0-9]+"));
+        
+        
         //megnyitom a diák belépési oldalt
         Stage mainStage = new Stage();
         Parent root = FXMLLoader.load(getClass().getResource("StudentLoginFXML.fxml"));
