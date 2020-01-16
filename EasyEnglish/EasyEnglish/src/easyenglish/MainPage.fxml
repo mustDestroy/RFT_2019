@@ -8,8 +8,8 @@
 
 <AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyenglish.MainPageController">
     <children>
-        <Button fx:id="btnTeacher" layoutX="128.0" layoutY="332.0" onAction="#btnTeacherAction" text="Teacher" />
+        <Button fx:id="btnTeacher" layoutX="128.0" layoutY="332.0" onAction="#btnTeacherAction" text="Tanár" />
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" text="Angol nyelvű teszt" />
-      <Button fx:id="btnStudent" layoutX="424.0" layoutY="332.0" mnemonicParsing="false" onAction="#btnStudentAction" text="Student" />
+      <Button fx:id="btnStudent" layoutX="424.0" layoutY="332.0" mnemonicParsing="false" onAction="#btnStudentAction" text="Tanuló" />
     </children>
 </AnchorPane>

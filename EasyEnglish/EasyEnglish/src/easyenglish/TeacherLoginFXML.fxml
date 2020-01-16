@@ -6,6 +6,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyenglish.TeacherLoginFXMLController">
-    
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="650.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="easyenglish.TeacherLoginFXMLController">
+   <children>
+      <Button fx:id="btnTeacherLogin" layoutX="465.0" layoutY="306.0" mnemonicParsing="false" onAction="#btnTeacherLoginAction" text="Belépés" />
+      <Button fx:id="btnTeacherToReg" layoutX="112.0" layoutY="306.0" mnemonicParsing="false" onAction="#btnTeacherToRegAction" text="Regisztráció" />
+      <TextField fx:id="txtFieldTeacherId" layoutX="419.0" layoutY="152.0" promptText="Tanári azonosító" />
+      <PasswordField fx:id="txtFieldTeacherPw" layoutX="419.0" layoutY="232.0" promptText="Jelszó" />
+      <Label fx:id="lblErrorMessage" layoutX="418.0" layoutY="271.0" prefHeight="17.0" prefWidth="149.0" />
+   </children>
 </AnchorPane>
