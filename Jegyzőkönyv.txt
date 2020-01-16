@@ -335,14 +335,41 @@ A Rendszertervnek 2020.01.15. 14:00-ra kell elkészülnie.
 ---Jegyzőkönyv vége 2019.11.13.---
 
 
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2020.01.03.
+
+Project: Easy English
+Téma: Online Meeting a Projektterv
+Hossz: 20p
+
+A projket Back End és Front End feladatainak a kiosztása.
+ A Back End részt A. Dominik fogja elkészíteni:
+			- adatbázis táblák létrehozása
+			- Controller osztályok létrehozása
+			- Modell réteg megvalósítása
+
+ A Front End részt T. Mátyás foja elkészíteni:
+			- .FXML fájlok létrehozása
+			- View réteg kapcsolatának megval. a contoller réteggel
+
+A felsoroltaknak 2020.01.15. 20:00-ra kell elkészülnie.
+			
+---Jegyzőkönyv vége 2020.01.03.---
 
 
+LogNgin Tech Kft.
+3300-Eger, Példa utca 1.
+2020.01.03.
 
+Project: Easy English
+Téma: Online Meeting a Projektterv
+Hossz: 20p
 
-
-
-
-
+A teszttervek és implementációs tervek alapján a Back End és Front End részek elkészültek.
+A Unit tesztek sikeresek voltak.
+			
+---Jegyzőkönyv vége 2020.01.15.---
 
 
 
