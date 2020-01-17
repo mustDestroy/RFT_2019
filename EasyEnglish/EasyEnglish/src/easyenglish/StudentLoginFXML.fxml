@@ -13,7 +13,7 @@
          <font>
             <Font name="Segoe UI Black" size="26.0" />
          </font></Button>
-      <Button fx:id="btnGoToRegistration" layoutX="210.0" layoutY="392.0" mnemonicParsing="false" onAction="#btnGoToRegistrationAction" prefHeight="29.0" prefWidth="231.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 15px; -fx-border-color: #999; -fx-border-radius: 15px;" text="REGISZTRÁCIÓ">
+      <Button fx:id="btnGoToRegistration" layoutX="210.0" layoutY="392.0" mnemonicParsing="false" onAction="#btnGoToRegistrationAction" prefHeight="30.0" prefWidth="230.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 15px; -fx-border-color: #999; -fx-border-radius: 15px;" text="REGISZTRÁCIÓ">
          <font>
             <Font name="Segoe UI Light" size="19.0" />
          </font></Button>
