@@ -9,17 +9,51 @@
 
 <AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="easyenglish.ExerciseStartFXMLController">
    <children>
-      <Button fx:id="btnStartTest" layoutX="281.0" layoutY="213.0" mnemonicParsing="false" onAction="#btnStartTestAction" text="Teszt indítása" textAlignment="CENTER" />
-      <Button fx:id="btnAnswr1" layoutX="98.0" layoutY="325.0" mnemonicParsing="false" onAction="#btnAnswr1Action" prefHeight="25.0" prefWidth="120.0" text="Button" />
-      <Button fx:id="btnAnswr2" layoutX="454.0" layoutY="325.0" mnemonicParsing="false" onAction="#btnAnswr2Action" prefHeight="25.0" prefWidth="120.0" text="Button" textAlignment="CENTER" />
-      <Button fx:id="btnAnswr3" layoutX="98.0" layoutY="394.0" mnemonicParsing="false" onAction="#btnAnswr3Action" prefHeight="25.0" prefWidth="120.0" text="Button" textAlignment="CENTER" />
-      <Button fx:id="btnAnswr4" layoutX="454.0" layoutY="394.0" mnemonicParsing="false" onAction="#btnAnswr4Action" prefHeight="25.0" prefWidth="120.0" text="Button" textAlignment="CENTER" />
-      <Label fx:id="lblMessage" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="72.0" prefHeight="70.0" prefWidth="600.0" text="Helyettesítse be az ige megfelelő alakját a mondatokba!" textAlignment="CENTER" wrapText="true">
+      <Button fx:id="btnStartTest" layoutX="158.0" layoutY="194.0" mnemonicParsing="false" onAction="#btnStartTestAction" prefHeight="50.0" prefWidth="350.0" style="-fx-background-color: #90bde0; -fx-background-radius: 20px; -fx-border-color: #999; -fx-border-radius: 20px;" text="TESZT INDÍTÁSA" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="30.0" />
+         </font></Button>
+      <Button fx:id="btnAnswr1" alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="291.0" mnemonicParsing="false" onAction="#btnAnswr1Action" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #fafafa; -fx-background-radius: 10px; -fx-border-color: #bbb; -fx-border-radius: 10px;" text="Button" textAlignment="CENTER" textFill="#589cd1">
          <font>
             <Font name="System Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnAnswr2" layoutX="335.0" layoutY="291.0" mnemonicParsing="false" onAction="#btnAnswr2Action" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #fafafa; -fx-background-radius: 10px; -fx-border-color: #bbb; -fx-border-radius: 10px;" text="Button" textAlignment="CENTER" textFill="#589cd1">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnAnswr3" alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnAnswr3Action" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #fafafa; -fx-background-radius: 10px; -fx-border-color: #bbb; -fx-border-radius: 10px;" text="Button" textAlignment="CENTER" textFill="#589cd1">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnAnswr4" alignment="CENTER" contentDisplay="CENTER" layoutX="335.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnAnswr4Action" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #fafafa; -fx-background-radius: 10px; -fx-border-color: #bbb; -fx-border-radius: 10px;" text="Button" textAlignment="CENTER" textFill="#589cd1">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
+      <Label fx:id="lblMessage" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="75.0" prefHeight="106.0" prefWidth="600.0" text="Helyettesítse be az ige megfelelő alakját a mondatokba!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
          </font></Label>
-      <Button fx:id="btnNext" layoutX="575.0" layoutY="407.0" mnemonicParsing="false" onAction="#btnNextAction" text="Tovább" />
-      <Button fx:id="btnFinish" layoutX="273.0" layoutY="350.0" mnemonicParsing="false" onAction="#btnFinishAction" prefHeight="57.0" prefWidth="120.0" text="Kész" />
-      <Label fx:id="lblResult" layoutX="259.0" layoutY="293.0" prefHeight="25.0" prefWidth="142.0" />
+      <Button fx:id="btnNext" layoutX="536.0" layoutY="404.0" mnemonicParsing="false" onAction="#btnNextAction" prefWidth="100.0" style="-fx-background-color: #809ad3; -fx-background-radius: 10px; -fx-border-color: #999; -fx-border-radius: 10px;" text="TOVÁBB" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="btnFinish" layoutX="227.0" layoutY="303.0" mnemonicParsing="false" onAction="#btnFinishAction" prefHeight="91.0" prefWidth="212.0" style="-fx-background-color: #798fd0; -fx-background-radius: 20px; -fx-border-color: #999; -fx-border-radius: 20px;" text="KÉSZ" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="36.0" />
+         </font></Button>
+      <Label fx:id="lblResult" layoutX="159.0" layoutY="259.0" prefHeight="45.0" prefWidth="350.0" textFill="#da2754">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Label fx:id="Label_EasyEnglish" layoutX="270.0" layoutY="14.0" text="EasyEnglish">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label_JatekosTanulas" layoutX="283.0" layoutY="50.0" text="JÁTÉKOS TANULÁS" textFill="#5470c0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
