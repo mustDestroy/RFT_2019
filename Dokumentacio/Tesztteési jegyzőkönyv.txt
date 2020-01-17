@@ -1,0 +1,20 @@
+
+Téma: Az EasyEnglish nevű asztali alkalmazásban a Modell réteg tesztelése.
+
+	Használt datbázis rendszer: MySql Workbench
+	Platform: Java
+	Fejlesztési környezet: NetBeans 8.2
+
+Részeltes leírás:
+	A tesztelést a Modell réteget megvalósító Singleton osztály
+	metódusain végeztük.
+	Azt vizsgáltuk, hogy helyesen vannak-e implementálva getConnection()
+	és getInstance() metódusok.
+	Ennek érdekében készítettünk egy teszt osztály, és unit teszteket futtattunk.
+	A vizsgálatot az assertNotNull() függvény segítségével hajtottuk végre.
+	A tesztek bizonyították, hogy mindkettő függvény helyes értékkel tér vissza.
+
+Eredmény:
+	Mindkét függvény helyes visszatérési értékkel tért vissza.
+
+Tesztelés ideje: 2020.01.16. 22:00
